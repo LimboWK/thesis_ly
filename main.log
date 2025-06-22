@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  19 JUN 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  22 JUN 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,7 +672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
 [5
 
-]) (./chapters/introduction.tex
+]) (./chapters/01_introduction.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -683,19 +683,19 @@ l.1 \chapter
 
 ]
 Chapter 1.
-) (./chapters/data_source_and_preprocessing.tex
+) (./chapters/02_data_source_and_preprocessing.tex
 
 [2
 
 ]
 Chapter 2.
-) (./chapters/quantifying_the_openness_of_residential_spaces.tex
+) (./chapters/03_quantifying_the_openness_of_residential_spaces.tex
 
 [3
 
 ]
 Chapter 3.
-) (./chapters/influence_of_age_and_geographic_factors.tex
+) (./chapters/04_influence_of_age_and_geographic_factors.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -706,13 +706,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5]
 Chapter 4.
-) (./chapters/correlation_analysis_between_subjective_impressions_and_openness.tex
+) (./chapters/05_correlation_analysis_between_subjective_impressions_and_openness.tex
 
 [6
 
 ]
 Chapter 5.
-) (./chapters/conclusion_and_future_work.tex
+) (./chapters/06_conclusion_and_future_work.tex
 
 [7
 
@@ -800,7 +800,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  18388 strings out of 473190
- 299203 string characters out of 5715800
+ 299311 string characters out of 5715800
  981598 words of memory out of 5000000
  41202 multiletter control sequences out of 15000+600000
  569945 words of font info for 75 fonts, out of 8000000 for 9000
