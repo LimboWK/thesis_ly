@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  23 JUN 2025 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  30 JUN 2025 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,105 +428,105 @@ LaTeX Font Info:    Trying to load font information for C70+min on input line 58
 File: c70min.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fdx
 File: c70min.fdx 2021/10/16 4.8.5
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
 <plots/samplesize_decades.png, id=1, 592.2125pt x 391.4625pt>
 File: plots/samplesize_decades.png Graphic file (type png)
 <use plots/samplesize_decades.png>
-Package pdftex.def Info: plots/samplesize_decades.png  used on input line 115.
+Package pdftex.def Info: plots/samplesize_decades.png  used on input line 102.
 (pdftex.def)             Requested size: 237.58052pt x 157.04216pt.
-[1
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./plots/samplesize_decades.png>]
-<plots/exp_lv_semseg_2.jpg, id=21, 776.1798pt x 588.2778pt>
+<plots/exp_lv_semseg_2.jpg, id=2, 776.1798pt x 588.2778pt>
 File: plots/exp_lv_semseg_2.jpg Graphic file (type jpg)
 <use plots/exp_lv_semseg_2.jpg>
-Package pdftex.def Info: plots/exp_lv_semseg_2.jpg  used on input line 137.
+Package pdftex.def Info: plots/exp_lv_semseg_2.jpg  used on input line 124.
 (pdftex.def)             Requested size: 190.06514pt x 144.05301pt.
+ [1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./plots/samplesize_decades.png>]
 <plots/exp_lv_semseg_1.jpg, id=22, 758.1123pt x 434.3427pt>
 File: plots/exp_lv_semseg_1.jpg Graphic file (type jpg)
 <use plots/exp_lv_semseg_1.jpg>
-Package pdftex.def Info: plots/exp_lv_semseg_1.jpg  used on input line 139.
+Package pdftex.def Info: plots/exp_lv_semseg_1.jpg  used on input line 126.
 (pdftex.def)             Requested size: 237.58052pt x 136.11615pt.
 <plots/exp_maodri_semseg_raw.jpg, id=23, 501.875pt x 390.45876pt>
 File: plots/exp_maodri_semseg_raw.jpg Graphic file (type jpg)
 <use plots/exp_maodri_semseg_raw.jpg>
-Package pdftex.def Info: plots/exp_maodri_semseg_raw.jpg  used on input line 149.
+Package pdftex.def Info: plots/exp_maodri_semseg_raw.jpg  used on input line 136.
 (pdftex.def)             Requested size: 166.30563pt x 129.38799pt.
 <plots/exp_madori_semseg_decoded.jpg, id=24, 343.2825pt x 266.6763pt>
 File: plots/exp_madori_semseg_decoded.jpg Graphic file (type jpg)
 <use plots/exp_madori_semseg_decoded.jpg>
-Package pdftex.def Info: plots/exp_madori_semseg_decoded.jpg  used on input line 150.
+Package pdftex.def Info: plots/exp_madori_semseg_decoded.jpg  used on input line 137.
 (pdftex.def)             Requested size: 166.30563pt x 129.19136pt.
 <plots/exp_madori_semseg_grid.jpg, id=25, 343.2825pt x 266.6763pt>
 File: plots/exp_madori_semseg_grid.jpg Graphic file (type jpg)
 <use plots/exp_madori_semseg_grid.jpg>
-Package pdftex.def Info: plots/exp_madori_semseg_grid.jpg  used on input line 151.
+Package pdftex.def Info: plots/exp_madori_semseg_grid.jpg  used on input line 138.
 (pdftex.def)             Requested size: 166.30563pt x 129.19136pt.
 <plots/exp_madori_semseg_vga.jpg, id=26, 437.2335pt x 344.0052pt>
 File: plots/exp_madori_semseg_vga.jpg Graphic file (type jpg)
 <use plots/exp_madori_semseg_vga.jpg>
-Package pdftex.def Info: plots/exp_madori_semseg_vga.jpg  used on input line 152.
+Package pdftex.def Info: plots/exp_madori_semseg_vga.jpg  used on input line 139.
 (pdftex.def)             Requested size: 166.30563pt x 130.8493pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 162.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 145.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 162.
+(Font)              size <5> substituted on input line 145.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 162.
+(Font)              size <5> substituted on input line 145.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 162.
+(Font)              size <5> substituted on input line 145.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 162.
+(Font)              <11> on input line 145.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 162.
+(Font)              <7.69997> on input line 145.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 162.
+(Font)              <5.5> on input line 145.
 [2 <./plots/exp_lv_semseg_2.jpg> <./plots/exp_lv_semseg_1.jpg> <./plots/exp_maodri_semseg_raw.jpg> <./plots/exp_madori_semseg_decoded.jpg> <./plots/exp_madori_semseg_grid.jpg> <./plots/exp_madori_semseg_vga.jpg>]
 <plots/vga_10years_box.png, id=35, 985.6825pt x 391.4625pt>
 File: plots/vga_10years_box.png Graphic file (type png)
 <use plots/vga_10years_box.png>
-Package pdftex.def Info: plots/vga_10years_box.png  used on input line 181.
+Package pdftex.def Info: plots/vga_10years_box.png  used on input line 164.
 (pdftex.def)             Requested size: 213.82101pt x 84.91542pt.
 <plots/q3_10years_box.png, id=36, 990.70125pt x 391.4625pt>
 File: plots/q3_10years_box.png Graphic file (type png)
 <use plots/q3_10years_box.png>
-Package pdftex.def Info: plots/q3_10years_box.png  used on input line 186.
+Package pdftex.def Info: plots/q3_10years_box.png  used on input line 169.
 (pdftex.def)             Requested size: 213.82101pt x 84.48534pt.
 <plots/tokyo23_vga.png, id=37, 391.4625pt x 792.9625pt>
 File: plots/tokyo23_vga.png Graphic file (type png)
 <use plots/tokyo23_vga.png>
-Package pdftex.def Info: plots/tokyo23_vga.png  used on input line 201.
+Package pdftex.def Info: plots/tokyo23_vga.png  used on input line 185.
 (pdftex.def)             Requested size: 106.9105pt x 216.55896pt.
 <plots/tokyo23_q3.png, id=38, 391.4625pt x 792.9625pt>
 File: plots/tokyo23_q3.png Graphic file (type png)
 <use plots/tokyo23_q3.png>
-Package pdftex.def Info: plots/tokyo23_q3.png  used on input line 202.
+Package pdftex.def Info: plots/tokyo23_q3.png  used on input line 186.
 (pdftex.def)             Requested size: 106.9105pt x 216.55896pt.
- [3 <./plots/vga_10years_box.png> <./plots/q3_10years_box.png> <./plots/tokyo23_vga.png> <./plots/tokyo23_q3.png>]
-<plots/corr_vga_q3.png, id=42, 1118.1775pt x 1013.7875pt>
+<plots/corr_vga_q3.png, id=39, 1118.1775pt x 1013.7875pt>
 File: plots/corr_vga_q3.png Graphic file (type png)
 <use plots/corr_vga_q3.png>
-Package pdftex.def Info: plots/corr_vga_q3.png  used on input line 232.
+Package pdftex.def Info: plots/corr_vga_q3.png  used on input line 202.
 (pdftex.def)             Requested size: 213.82101pt x 193.85916pt.
+ [3 <./plots/vga_10years_box.png> <./plots/q3_10years_box.png> <./plots/tokyo23_vga.png> <./plots/tokyo23_q3.png>]
 <plots/inter_q3_cluster.png, id=43, 1193.45876pt x 993.7125pt>
 File: plots/inter_q3_cluster.png Graphic file (type png)
 <use plots/inter_q3_cluster.png>
-Package pdftex.def Info: plots/inter_q3_cluster.png  used on input line 238.
+Package pdftex.def Info: plots/inter_q3_cluster.png  used on input line 217.
 (pdftex.def)             Requested size: 213.82101pt x 178.02657pt.
 <plots/corr_inter_q3.png, id=44, 792.9625pt x 592.2125pt>
 File: plots/corr_inter_q3.png Graphic file (type png)
 <use plots/corr_inter_q3.png>
-Package pdftex.def Info: plots/corr_inter_q3.png  used on input line 244.
+Package pdftex.def Info: plots/corr_inter_q3.png  used on input line 223.
 (pdftex.def)             Requested size: 213.82101pt x 159.68263pt.
 
 
@@ -542,15 +542,15 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 6282 strings out of 473190
- 100249 string characters out of 5715800
- 507576 words of memory out of 5000000
- 29430 multiletter control sequences out of 15000+600000
+ 6294 strings out of 473190
+ 100684 string characters out of 5715800
+ 509443 words of memory out of 5000000
+ 29438 multiletter control sequences out of 15000+600000
  588395 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,307b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,398b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abstract_4pages.pdf (4 pages, 1086714 bytes).
+Output written on abstract_4pages.pdf (4 pages, 1087610 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream

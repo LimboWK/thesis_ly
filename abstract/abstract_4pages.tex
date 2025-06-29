@@ -33,10 +33,10 @@
 
 % Configure section titles (chapter titles)
 \titleformat{\section}
-{\normalfont\fontsize{11}{13}\bfseries}{\thesection}{1em}{}
+{\normalfont\fontsize{11}{11}\bfseries}{\thesection}{1em}{}
 
 \titleformat{\subsection}
-{\normalfont\fontsize{11}{13}\bfseries}{\thesubsection}{1em}{}
+{\normalfont\fontsize{11}{11}\bfseries}{\thesubsection}{1em}{}
 
 % Line spacing to achieve approximately 60 lines per column
 \linespread{1.0}
@@ -55,20 +55,15 @@
 {\fontsize{12}{14}\selectfont \textbf{A Multifaceted Exploration of Spatial Openness in Rental Housing: Big Data Analysis Across Tokyo's 23 Wards}}\\
 % Line 3: Title in Japanese (MS Mincho, 11pt, Center)
 \begin{CJK}{UTF8}{min}
-{\fontsize{11}{13}\selectfont 賃貸住宅における空間開放性の多面的探究：東京23区のビッグデータ分析}
+{\fontsize{11}{11}\selectfont 賃貸住宅における空間開放性の多面的探究：東京23区のビッグデータ分析}
 \end{CJK}\\
 % Line 4: blank
-~\\
 \end{center}
-
 % Line 5: Affiliation, Student ID, Name (Times New Roman, 11pt, Right-justified)
 \begin{flushright}
-{\fontsize{11}{13}\selectfont Oki Lab , Student ID: 23M5833, Yuan Liu}
+{\fontsize{11}{13}\selectfont Oki Lab  23M5833 \begin{CJK}{UTF8}{min}リュ　ゲン\end{CJK} (Liu Yuan)}
 \end{flushright}
-
 % Line 6: blank
-~\\
-
 % Main body starts from line 7
 \begin{multicols}{2}
 \fontsize{11}{13}\selectfont
@@ -76,39 +71,31 @@
 \section{Introduction}
 
 Spatial openness is a critical factor in property selection and residential design, encompassing
-perceived spaciousness, visual connectivity, and flow within living environments. Understanding
-and quantifying spatial openness is essential for real estate professionals and architectural
-designers seeking to optimize residential spaces.
+perceived spaciousness, visual connectivity, and flow within living environments. Traditional
+approaches rely on structured data using standardized metrics such as floor area and room count,
+failing to capture nuanced spatial qualities and rarely leveraging unstructured data sources
+like interior imagery and floor plan (madori) data.
 
-Traditional approaches to analyzing spatial openness rely on structured data analysis using
-standardized metrics such as floor area, room count, and basic dimensional measurements. These
-conventional methods fail to capture the nuanced spatial qualities that truly define openness
-and rarely leverage rich, unstructured data sources such as interior imagery and floor plan
-(madori) data.
+This research proposes a novel methodology integrating interior images with semantic segmentation,
+floor plan images, and optical image-based visibility graph analysis (VGA). Our approach breaks
+traditional VGA constraints that required manual data inputs and proprietary software like
+DepthMapX. Beyond the innovation of utilizing multiple data types, we analyze the correlations
+between them, from 2D floorplan representations to 3D visual images, linking these with tabular
+data to better understand the impact of user selections and actual property attributes.
 
-This research proposes a novel methodology that harnesses innovative information sources through
-advanced computational techniques. Our approach integrates interior images with semantic
-segmentation, floor plan images processed through semantic segmentation, and optical image-based
-visibility graph analysis (VGA). This methodology breaks traditional VGA constraints that
-historically required manual data inputs such as AutoCAD vectorized maps and proprietary
-software like DepthMapX.
-
-Our method utilizes open-source coding frameworks that significantly accelerate data processing
-capabilities, enabling analysis of substantially larger datasets. By reducing manual processes
-required by traditional spatial analysis tools, our approach enables fully automated processing
-pipelines for large-scale datasets, opening new possibilities for comprehensive urban-scale
-studies of residential spatial quality.
+Our method utilizes open-source frameworks that accelerate data processing, enabling analysis
+of larger datasets through fully automated pipelines. This opens new possibilities for
+comprehensive urban-scale studies of residential spatial quality.
 
 \section{Data Source and Preprocessing}
 
-The data source for this study is the rental category of data from the Lifull dataset. In this study, 
-we focus on the rental property in Tokyo area, constructed date from 1960 to most recent years. Every 
-decades we sampled roughly 1000 to 1500 properties to make the distribution more balanced. Since we 
-need clear interior images for interior semseg analysis, clear madori images to extract the VGA distributions,
-and compare the properties visual elements from those images to their tabular specs data, we have to screen 
-outs those poor quality images and very incomplete infos, after the filtering we have around 6000 
-properties left. As illustrated in Figure \ref{fig:samplesize_decades}, our dataset demonstrates a comprehensive coverage 
-across Tokyo's 23 wards spanning multiple construction decades. 
+\subsection{Dataset Collection}
+
+Our dataset comprises rental properties from the Lifull dataset, focusing on Tokyo properties 
+constructed from 1960 to present. We sampled approximately 1000-1500 properties per decade 
+for balanced distribution. After filtering for image quality and data completeness required 
+for semantic segmentation and VGA analysis, 6000 properties remained. Figure \ref{fig:samplesize_decades} 
+shows comprehensive coverage across Tokyo's 23 wards spanning multiple construction decades.
 % Image inside multicols environment to fit within one column
 % \begin{figure}[htbp]
 \begin{center}
@@ -118,21 +105,21 @@ across Tokyo's 23 wards spanning multiple construction decades.
 \end{center}
 % \end{figure}
 
+\subsection{Processing Pipeline}
+
 The entire data processing pipeline remains stable and fast in this level, the whole 
 processing time can be finished within a couple of hours, though depends on the actual specs of the 
-machine. We will mention about the details in the thesis when it comes to the actual technical steps.
-
-
+machine. The pipeline consists of data cleaning to remove properties with incomplete information or poor-quality images, followed by data reformatting to standardize image dimensions and tabular data structures for consistent processing. We will mention about the details in the thesis when it comes to the actual technical steps.
 
 \section{Quantifying the Openness of Residential Spaces}
 
-We focus on several key quantifiable statistics that might be related to the openness of properties, beyond the 
-already existing tabular features such as room types and room area.
-
-From interior data, we first filtered the main living room images, then applied semantic segmentation using the 
-Mask2Former model which is pretrained on the ADE20K dataset to ensure that key components such as walls, ceilings, 
-and windows can be correctly tagged. We then extract the ratio of their appearance in each image as features for 
-later analysis, as shown in Figure \ref{fig:interior_semseg}. 
+\subsection{Feature Extraction from Interior Images}
+We extract quantifiable statistics related to property openness beyond traditional tabular features. 
+For interior images, we filter main living room photos and apply semantic segmentation using 
+Mask2Former pretrained on ADE20K dataset. Key components including walls, ceilings, and windows 
+are identified, with component ratios extracted as features. Figure \ref{fig:interior_semseg} 
+shows example results. This process quantifies spatial elements contributing to perceived openness, 
+providing measurable visual features complementing traditional property specifications.
 \begin{flushleft}
     \includegraphics[width=0.8\columnwidth]{plots/exp_lv_semseg_2.jpg}
     \\[0.5em]
@@ -140,11 +127,11 @@ later analysis, as shown in Figure \ref{fig:interior_semseg}.
     \captionof{figure}{Example of interior semantic segmentation results.}
     \label{fig:interior_semseg}
 \end{flushleft}
-
-
-From madori (floorplan) data, we first performed semantic segmentation using a model pretrained on non-floorplan 
-data, then utilized a labeled dataset to perform fine-tuning to ensure it can classify floorplan components like 
-walls, bedrooms, living rooms, etc. 
+\subsection{Floorplan Semantic Segmentation and Gridding}
+For madori (floorplan) data, we perform semantic segmentation using a model fine-tuned 
+on labeled floorplan data to classify walls, bedrooms, and living rooms. We extract open areas 
+by filtering out background and wall regions, then create a grid over the open area with 
+cell size normalized to approximately 20~cm.
 \begin{flushleft}
     \includegraphics[width=0.7\columnwidth]{plots/exp_maodri_semseg_raw.jpg}
     \includegraphics[width=0.7\columnwidth]{plots/exp_madori_semseg_decoded.jpg}
@@ -153,29 +140,25 @@ walls, bedrooms, living rooms, etc.
     \captionof{figure}{From top to bottom: raw floorplan, the semantic segmentation output, the physical gridding, and the heatmap of VGA.}
     \label{fig:madori_processing}
 \end{flushleft}
-
-To obtain VGA scores, we extract the open area by filtering out the background 
-and walls. Then, by a given granularity, we create a grid over the area. Since every property has different 
-physical dimensions, we normalize the density of gridding by physical size, with each grid cell ranging around 20~cm.
-
-We define the VGA value at each grid node by the number of visible nodes from that node:
+\subsection{VGA Calculation and Feature Aggregation}
+The VGA value at each grid node is defined as the number of other nodes visible from that node:
 \begin{equation}
 \label{eq:vga_definition}
 S(i) = \sum_{j=1}^{N} V_{ij}
 \end{equation}
-where $S(i)$ is the visibility score at node $i$, $N$ is the total number of nodes, and $V_{ij} = 1$ if node $j$ 
-is visible from node $i$, otherwise $V_{ij} = 0$.
-By this method, a VGA heatmap can be generated, and we extract VGA scores by taking the mean, standard deviation, 
-minimum/maximum, etc., over the whole property or only living rooms to represent its VGA features. 
-The output result with the raw floorplan input for the above processings are demonstrated in the following graph 
-as shown in Figure \ref{fig:madori_processing}.
+where $S(i)$ is the visibility score at node $i$, $N$ is the total number of nodes, and $V_{ij} = 1$ if 
+node $j$ is visible from node $i$, otherwise $V_{ij} = 0$. We extract summary statistics (mean, standard deviation, minimum, maximum) from the resulting VGA heatmap to represent spatial openness features, as demonstrated in Figure \ref{fig:madori_processing}.
 
-% \fontsize{11}{13}\selectfont
 
-\section{Influence of building age and geographic factors.}
-From the tabular features of the properties, we have various information, with the most interesting being building age and geographic factors. 
-We examined the distribution of VGA mean values across construction dates in decades, as shown in Figure \ref{fig:vga_10years_box}.
-Similarly, we examined the distribution of q3 impression scores across construction dates in decades, as shown in Figure \ref{fig:q3_10years_box}.
+\section{Influence of Building Age and Geographic Factors}
+
+\subsection{Temporal Analysis of Spatial Openness}
+From the tabular features of the properties, we have various information, with the most interesting 
+being building age and geographic factors. 
+We examined the distribution of VGA mean values across construction dates in decades, as shown in 
+Figure \ref{fig:vga_10years_box}.
+Similarly, we examined the distribution of q3 impression scores across construction dates in decades, 
+as shown in Figure \ref{fig:q3_10years_box}.
 
 \begin{flushleft}
     \includegraphics[width=0.9\columnwidth]{plots/vga_10years_box.png}
@@ -193,6 +176,7 @@ contain more large outliers while remaining relatively stable across decades. Th
 on the overall distribution. Meanwhile, the q3 impression scores show a more balanced distribution, 
 which is reasonable since impression scores evaluated from single interior photographs are more independent of the entire property layouts.
 
+\subsection{Geographic Distribution Analysis}
 Figure \ref{fig:tokyo23_exp} presents VGA analysis results and q3 impression score distributions across Tokyo's 23 special wards. 
 The visualization demonstrates regional variations in spatial openness characteristics, 
 providing insights into urban housing design patterns 
@@ -205,17 +189,22 @@ at the metropolitan scale.
 \end{flushleft}
 
 
-
-
-% \fontsize{11}{13}\selectfont
 \section{Correlation Analysis Between Subjective Impressions and Openness}
 
+\subsection{Validation Through Subjective Impression Analysis}
 To validate our approach, we analyzed correlations between computed spatial metrics and subjective impressions 
 using a pre-trained model by Shimomura et al. that outputs impression scores (q3) from interior images.
 We extracted VGA statistics from floorplans overlaid with living room masks to match the q3 model's training data scope.
 However, no significant correlation was found between VGA metrics and q3 scores, as shown in Figure \ref{fig:corr_vga_q3}.
 This stems from a fundamental mismatch: q3 uses limited-view interior photographs while VGA analyzes complete floorplan layouts.
 
+\begin{flushleft}
+    \includegraphics[width=0.9\columnwidth]{plots/corr_vga_q3.png}
+    \captionof{figure}{Correlation matrix between q3 impression scores, VGA metrics (mean, std, min, max)}
+    \label{fig:corr_vga_q3}
+\end{flushleft}
+
+\subsection{Interior Semantic Segmentation Analysis}
 We also examined correlations between interior semantic segmentation component ratios and q3 scores. 
 After filtering outliers using centered clustering with a 75th percentile cutoff, the results are shown 
 in Figures \ref{fig:inter_q3_cluster} and \ref{fig:corr_inter_q3}.
@@ -223,16 +212,6 @@ in Figures \ref{fig:inter_q3_cluster} and \ref{fig:corr_inter_q3}.
 Interior segmentation analysis shows window and wall components have very weak correlation with impression scores, 
 while floor and ceiling exhibit mild to moderate negative correlations. This suggests excessive floor or ceiling 
 visibility negatively impacts quality perceptions, emphasizing the importance of balanced camera angles.
-
-We also analyzed correlations between VGA statistics, interior segmentation results, and property data.
-Figure \ref{fig:q3_10years_box} shows q3 impression scores by construction decade, revealing trends in 
-perceived spatial quality over time. This demonstrates how our framework can identify temporal patterns 
-in housing design preferences.
-\begin{flushleft}
-    \includegraphics[width=0.9\columnwidth]{plots/corr_vga_q3.png}
-    \captionof{figure}{Correlation matrix between q3 impression scores, VGA metrics (mean, std, min, max)}
-    \label{fig:corr_vga_q3}
-\end{flushleft}
 
 \begin{flushleft}
     \includegraphics[width=0.9\columnwidth]{plots/inter_q3_cluster.png}
@@ -245,6 +224,12 @@ in housing design preferences.
     \captionof{figure}{Correlation analysis between q3 scores and semantic segmentation ratios after outlier filtering}
     \label{fig:corr_inter_q3}
 \end{flushleft}
+
+\subsection{Temporal Pattern Analysis}
+We also analyzed correlations between VGA statistics, interior segmentation results, and property data.
+Figure \ref{fig:q3_10years_box} shows q3 impression scores by construction decade, revealing trends in 
+perceived spatial quality over time. This demonstrates how our framework can identify temporal patterns 
+in housing design preferences.
 
 
 
@@ -284,7 +269,7 @@ for data-driven spatial quality assessment in real estate and urban planning.
 \newpage
 
 \begin{multicols}{2}
-\fontsize{11}{13}\selectfont
+\fontsize{11}{11}\selectfont
 
 % Additional content for page 3 would continue here
 % This could include detailed methodology descriptions,
