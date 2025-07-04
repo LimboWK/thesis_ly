@@ -1,0 +1,62 @@
+Abstract
+1. 学号：58033
+2. Oki -》OKI 
+3. 
+
+Chapter 1:done
+Briefly describe the background of the research, research gaps, and research objectives in 1-2 sentences each. 
+The research objectives are currently too detailed, including the software to be used. At the same time, the discussion is 
+limited to the topic of quantifying openness and does not cover the entire paper comprehensively.
+6:10
+
+
+ For chapters 2 and later: Prioritize completing figures and tables over writing text. With figures and tables in place, 
+the main text will be easier to write.
+
+Additional note: You can refer to any figures or tables you have created in the past,
+ such as those used in IDR symposium posters, as appropriate. In other words, you do not need to 
+ create all figures and text from scratch for your master's thesis.
+
+ Diagram in Chapter 1: In your research, instead of creating a diagram showing how you will proceed with your research, 
+it would be better to create a diagram that organizes the multiple indicators of openness considered in this study, 
+along with methods for quantifying them. ### liuyuan
+
+ Chapter 2: Organize the sampling flow of properties from the study area (Tokyo's 23 wards) 
+and Lifull Home's dataset, as well as the quantification methods for each openness indicator. 
+At this point, two pages will be filled.
+
+
+
+The figures illustrating the methods described in Chapter 2 is not yet complete. 
+Please refer to the your IDR poster and seminar reports to create figures that clearly explain the data processing procedures to readers.
+
+
+Chapter 3: Based on the results of the basic analysis, the content of the current Chapter 4 should be moved to Chapter 3.
+The two graphs on the left side of the current page 3 should be resized so that the text is legible. 
+
+The graph in the upper right corner can be omitted as it contains insufficient information. 
+Spatial distribution is too coarse at the ward (区) level, so it should be refined to the town (町) 
+level or postal code area level. Before doing so, as I mentioned earlier, confirm that the sample size for postal 
+code areas is sufficient using a histogram. It is necessary to investigate why the value is higher in Arakawa Ward. 
+No need to draw areas outside the 23 wards (western part of Tokyo).
+
+
+Chapter 4: Comprehensive analysis using multiple openness indicators. 
+For example, cluster analysis, impression evaluation values, and regression analysis with rent can be applied. 
+In other words, the objectives of this chapter is to clarify the relationships between each indicator and the characteristics of 
+properties with high openness (partial openness vs. total openness) 
+to gain insights that can be useful in architectural design and planning.
+
+
+Chapter 5 contains the conclusion. References to Future Work are not required in the 4-page abstract due to space limitations.
+This is followed by acknowledgments (e.g., Lifull), notes, and references. The font size of these sections should be 
+adjusted as necessary. Chapter numbers are not required in these sections.
+
+
+Note: The subjective evaluation value you refer to as “Q3Score” is merely a reference from previous 
+research (by Shimomura-san), so it should only be used in the analysis in Chapter 4.
+
+同时发送至频道
+
+ Based on the above comments, please update your 4-page abstract 
+and report your progress during the individual seminar on Thursday, July 3, during the day.

@@ -1,38 +1,34 @@
 \relax 
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2}Data Source and Preprocessing}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset Collection}{1}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Dataset overview showing property construction date distribution across Tokyo's 23 wards.}}{1}{}\protected@file@percent }
-\newlabel{fig:samplesize_decades}{{1}{1}{Dataset Collection}{figure.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Processing Pipeline}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Quantifying the Openness of Residential Spaces}{1}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Feature Extraction from Interior Images}{1}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example of interior semantic segmentation results.}}{2}{}\protected@file@percent }
-\newlabel{fig:interior_semseg}{{2}{2}{Feature Extraction from Interior Images}{figure.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Floorplan Semantic Segmentation and Gridding}{2}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces From top to bottom: raw floorplan, the semantic segmentation output, the physical gridding, and the heatmap of VGA.}}{2}{}\protected@file@percent }
-\newlabel{fig:madori_processing}{{3}{2}{Floorplan Semantic Segmentation and Gridding}{figure.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}VGA Calculation and Feature Aggregation}{2}{}\protected@file@percent }
-\newlabel{eq:vga_definition}{{1}{2}{VGA Calculation and Feature Aggregation}{equation.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Influence of Building Age and Geographic Factors}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Temporal Analysis of Spatial Openness}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Openness Attributes Extraction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset and Attributes}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Interior Elements}{1}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Dataset overview: interior images, floor plans, and room specifications for openness analysis.}}{1}{}\protected@file@percent }
+\newlabel{fig:overview_02}{{1}{1}{Interior Elements}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Interior semantic segmentation and impression scoring.}}{2}{}\protected@file@percent }
+\newlabel{fig:interior_semseg}{{2}{2}{Interior Elements}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}VGA-based Statistics}{2}{}\protected@file@percent }
+\newlabel{eq:vga_definition}{{1}{2}{VGA-based Statistics}{equation.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Attribute Distributions and Correlations}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Temporal Analysis of Spatial Openness}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Workflow of creating VGA heatmap from floorplan data: raw floorplan, semantic segmentation output, physical gridding, and VGA heatmap.}}{2}{}\protected@file@percent }
+\newlabel{fig:madori_processing}{{3}{2}{Temporal Analysis of Spatial Openness}{figure.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Distribution of VGA mean values across construction dates by decade}}{3}{}\protected@file@percent }
-\newlabel{fig:vga_10years_box}{{4}{3}{Temporal Analysis of Spatial Openness}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of q3 impression scores by property construction decade}}{3}{}\protected@file@percent }
-\newlabel{fig:q3_10years_box}{{5}{3}{Temporal Analysis of Spatial Openness}{figure.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Geographic Distribution Analysis}{3}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces VGA mean values and q3 impression score distributions across Tokyo's 23 special wards}}{3}{}\protected@file@percent }
-\newlabel{fig:tokyo23_exp}{{6}{3}{Geographic Distribution Analysis}{figure.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Correlation Analysis Between Subjective Impressions and Openness}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Validation Through Subjective Impression Analysis}{3}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Correlation matrix between q3 impression scores, VGA metrics (mean, std, min, max)}}{4}{}\protected@file@percent }
-\newlabel{fig:corr_vga_q3}{{7}{4}{Validation Through Subjective Impression Analysis}{figure.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Interior Semantic Segmentation Analysis}{4}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 2D distributions of q3 scores vs. interior semantic segmentation component ratios}}{4}{}\protected@file@percent }
-\newlabel{fig:inter_q3_cluster}{{8}{4}{Interior Semantic Segmentation Analysis}{figure.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Correlation analysis between q3 scores and semantic segmentation ratios after outlier filtering}}{4}{}\protected@file@percent }
-\newlabel{fig:corr_inter_q3}{{9}{4}{Interior Semantic Segmentation Analysis}{figure.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Temporal Pattern Analysis}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion and Future Work}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}References}{4}{}\protected@file@percent }
+\newlabel{fig:temporal_analysis}{{4}{3}{Temporal Analysis of Spatial Openness}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Geographic Distribution Analysis}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Correlation Analysis Between Openness Attributes}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Comprehensive Openness Analysis}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Analysis of Impression Scores and Interior Elements}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Geographic distribution analysis across Tokyo's 23 special wards: impression scores (top) and VGA mean values (bottom).}}{3}{}\protected@file@percent }
+\newlabel{fig:geo_analysis}{{5}{3}{Analysis of Impression Scores and Interior Elements}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Correlation matrix between Q3 impression scores, VGA metrics (mean, std, min, max), and interior element fractions}}{3}{}\protected@file@percent }
+\newlabel{fig:corr_vga_q3}{{6}{3}{Analysis of Impression Scores and Interior Elements}{figure.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Correlations between interior element ratios and Q3 impression scores after 75\% filtering}}{3}{}\protected@file@percent }
+\newlabel{tab:interior_corr}{{1}{3}{Analysis of Impression Scores and Interior Elements}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Cluster analysis of impression scores vs. interior element ratios}}{4}{}\protected@file@percent }
+\newlabel{fig:inter_q3_cluster}{{7}{4}{Analysis of Impression Scores and Interior Elements}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Regression Analysis Against Rent Cost}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces XGBoost regression results for rent prediction using openness attributes}}{4}{}\protected@file@percent }
+\newlabel{fig:rent_regression}{{8}{4}{Regression Analysis Against Rent Cost}{figure.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{4}{}\protected@file@percent }
 \gdef \@abspage@last{4}
