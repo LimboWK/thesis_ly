@@ -9,6 +9,7 @@
 \usepackage{multicol}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{svg}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
@@ -74,33 +75,41 @@
 
 \section{Introduction}
 
-Spatial openness is a critical factor in property selection and residential design, encompassing
-perceived spaciousness, visual connectivity, and flow within living environments. Traditional
-approaches rely on structured data like floor area and room count, failing to capture nuanced
-spatial qualities from unstructured sources like interior imagery and floor plans.
+Spatial openness encompasses perceived spaciousness, visual connectivity, and 
+flow within living environments. Traditional approaches using floor area and room count 
+fail to capture nuanced spatial qualities from interior imagery and floor plans.
+This research proposes a methodology integrating interior images with semantic 
+segmentation and visibility graph analysis to quantify spatial openness in rental housing. 
+We analyze distributions across Tokyo's 23 wards and construction decades, investigating correlations with subjective impression scores.
+Our approach enables automated spatial quality analysis, opening possibilities for large-scale urban studies of residential design.
 
-This research proposes a novel methodology integrating interior images with semantic segmentation
-and visibility graph analysis to quantify spatial openness in rental housing. We analyze spatial
-and temporal distributions across Tokyo's 23 wards and construction decades, investigating
-correlations with subjective impression scores using correlation analysis, cluster analysis,
-and regression modeling.
 
-Our approach enables comprehensive spatial quality analysis through automated processing,
-opening new possibilities for large-scale urban studies of residential design.
 \vspace{1em}
 
 \section{Openness Attributes Extraction}
 
 \subsection{Dataset and Attributes}
 
-Our dataset comprises 6000 rental properties from Tokyo's 23 wards (1960-present), 
-sampled to ensure each decade has approximately equal representation and filtered for image quality and data completeness.
+Our dataset comprises a few thousand rental properties from Tokyo's 23 wards (1960-present), 
+sampled to ensure each decade has approximately equal representation and filtered for image quality and data completeness. The data selection process is
+shown as Figure \ref{fig:data_selection}.
+\begin{center}
+    \includegraphics[width=0.9\columnwidth]{plots/data_filtering.png}
+    \captionof{figure}{Data selection and filtering process.}
+    \label{fig:data_selection}
+\end{center}
+
+
+
 As illustrated in Figure \ref{fig:overview_02}, this overview shows our methodology extracts multiple categories of spatial openness 
-attributes through interior images, floorplan data, and property specifications:
+attributes through 3D interior images, 2D floorplan data, and property specifications, as well as our following data analysis. 
+\begin{center}
+    \includegraphics[width=1\columnwidth]{plots/overview.png}
+    \captionof{figure}{Feature extraction overview.}
+    \label{fig:overview_02}
+\end{center}
 Impression scores (Q3) are extracted using Shimomura et al.'s pre-trained model.
-The following sections detail the extraction workflows for interior elements and VGA-based statistics.
-
-
+The following attributes are the focus of our analysis:
 \textbf{room size attributes}, \textbf{property specifications}, \textbf{interior elements}, and \textbf{vga-based statistics}.
 Room size attributes and property specifications are obtained directly from the database.
 Interior elements are extracted through semantic segmentation of interior images, 
@@ -109,11 +118,7 @@ while VGA-based statistics are computed from floorplan analysis to quantify spat
 \subsection{Interior Elements}
 We apply Mask2Former semantic segmentation to extract wall, ceiling, floor, and window ratios from interior images. 
 A CNN extracts features for impression score generation via MLP, as shown in Figure \ref{fig:interior_semseg}.
-\begin{center}
-    \includegraphics[width=0.8\columnwidth]{plots/overview_02.png}
-    \captionof{figure}{Dataset overview: interior images, floor plans, and room specifications for openness analysis.}
-    \label{fig:overview_02}
-\end{center}
+
 
 \begin{center}
     \includegraphics[width=0.6\columnwidth,height=1\columnwidth]{plots/exp_lv_semseg_4.png}
@@ -133,6 +138,8 @@ S(i) = \sum_{j=1}^{N} V_{ij}
 where $S(i)$ is the visibility score at node $i$, and $V_{ij} = 1$ if node $j$ is visible from node $i$, otherwise $V_{ij} = 0$. 
 This creates a VGA heatmap showing spatial connectivity throughout the floorplan. We extract summary statistics 
 (mean, standard deviation, percentiles) from this heatmap as spatial openness features, as shown in Figure \ref{fig:madori_processing}.
+After extracting the statistics, we can utilize them to analyze their distributions and correlations with other attributes to enhance the understanding of spatial openness.
+of the openness of the properties.
 \vspace{1em}
 
 \section{Attribute Distributions and Correlations}
@@ -142,18 +149,14 @@ From the tabular features of the properties, we have various information, with t
 being building age and geographic factors. 
 We examined the distribution of VGA mean values across construction dates in decades, as shown in 
 Figure \ref{fig:temporal_analysis}.
-
 \begin{center}
-    \includegraphics[width=0.6\columnwidth,height=2.2\columnwidth]{plots/exp_maodri_semseg_all.png}
+    \includegraphics[width=0.9\columnwidth]{plots/vga_process.png}
     \captionof{figure}{Workflow of creating VGA heatmap from floorplan data: raw floorplan, semantic segmentation output, physical gridding, and VGA heatmap.}
     \label{fig:madori_processing}
 \end{center}
 
 The analysis shows VGA mean values contain large outliers but remain stable across decades, likely due to large-area properties. 
 The impression scores show more balanced distributions, as they are evaluated from interior images that are less dependent of overall property layouts.
-
-
-%section{Influence of Building Age and Geographic Factors}
 
 \begin{center}
     \includegraphics[width=0.9\columnwidth]{plots/vga_10years_box.png}
@@ -207,7 +210,7 @@ Wall & 0.0275 & 4430 \\
 \end{center}
 
 \begin{center}
-    \includegraphics[width=0.9\columnwidth]{plots/inter_q3_cluster.png}
+    \includegraphics[width=0.8\columnwidth]{plots/inter_q3_cluster.png}
     \captionof{figure}{Cluster analysis of impression scores vs. interior element ratios}
     \label{fig:inter_q3_cluster}
 \end{center}
@@ -242,10 +245,68 @@ As shown in Figure \ref{fig:rent_regression}, training and testing results demon
 Residual analysis reveals weak bias in the fit, indicating the results are trustworthy. 
 
 \begin{center}
-    \includegraphics[width=0.9\columnwidth]{plots/rent_regression.png}
+    \includegraphics[width=0.75\columnwidth]{plots/rent_regression.png}
     \captionof{figure}{XGBoost regression results for rent prediction using openness attributes}
     \label{fig:rent_regression}
 \end{center}
+
+
+\subsection{Principal Component Analysis}
+To better understand the relationships between spatial features, we performed Principal Component Analysis (PCA) 
+using VGA mean values, ceiling, wall, floor, and window visual fractions as input features. The analysis reveals 
+the underlying structure of spatial characteristics in our dataset. The PCA plots are shown as Figure \ref{fig:pca_dist}.
+\begin{center}
+    \begin{minipage}{0.45\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{plots/PCA_01.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{plots/PCA_02.png}
+    \end{minipage}
+    \captionof{figure}{PCA distribution and top 2 components with raw feature axis}
+    \label{fig:pca_dist}
+\end{center}
+
+
+Table \ref{tab:pca_variance} presents the explained variance for each principal component. The first two 
+components capture approximately 51\% of the total variance.
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\hline
+Comp. & Eigenvalue & Var. \% & Cum. \% \\
+\hline
+PC1 & 1.42 & 28.46 & 28.46 \\
+PC2 & 1.12 & 22.33 & 50.80 \\
+PC3 & 1.07 & 21.36 & 72.16 \\
+PC4 & 0.88 & 17.57 & 89.73 \\
+PC5 & 0.51 & 10.27 & 100.00 \\
+\hline
+\end{tabular}
+\captionof{table}{Principal component variance explanation}
+\label{tab:pca_variance}
+\end{center}
+Table \ref{tab:pca_loadings} shows the feature loadings for all principal components. PC1 is primarily 
+dominated by wall fractions (0.65) opposing floor visibility (-0.57). PC2 captures the balance between natural lighting (window: 0.70) 
+and ceiling prominence (-0.59).
+
+\begin{center}
+\begin{tabular}{l|c|c|c|c|c}
+\hline
+Name & PC1 & PC2 & PC3 & PC4 & PC5 \\
+\hline
+VGA. Avg & -0.44 & -0.30 & -0.15 & 0.82 & -0.15 \\
+Window & -0.06 & 0.70 & 0.50 & 0.37 & 0.35 \\
+Floor & -0.57 & 0.17 & -0.53 & -0.23 & 0.56 \\
+Ceiling & -0.25 & -0.59 & 0.62 & -0.16 & 0.43 \\
+Wall & 0.65 & -0.22 & -0.27 & 0.32 & 0.60 \\
+\hline
+\end{tabular}
+\captionof{table}{Principal component feature loadings}
+\label{tab:pca_loadings}
+\end{center}
+
 
 \vspace{1em}
 
@@ -255,11 +316,12 @@ This research presents a framework for analyzing spatial openness in rental hous
 interpretation, visibility graph analysis, and interior semantic segmentation. Our methodology quantifies subjective 
 spatial qualities using visual data from rental platforms. Key findings reveal weak correlations between VGA metrics 
 and user impression scores, with excessive floor/ceiling visibility negatively impacting quality perceptions. 
-Regression analysis demonstrates that VGA standard deviation and room size are the most important factors for rent 
-prediction, followed by user impression scores and interior imaging fractions in order of importance. This indicates 
-that spatial variability and physical dimensions drive rental pricing, while subjective perception and interior 
-element visibility provide additional predictive value. This open-source framework provides practical tools for 
-data-driven spatial quality assessment in real estate and urban planning.
+PCA analysis reveals that the first two components capture 51\% of variance, with PC1 dominated by wall-floor 
+opposition and PC2 capturing natural lighting versus ceiling prominence. Regression analysis demonstrates that VGA 
+standard deviation and room size are the most important factors for rent prediction. Spatial openness perception is 
+impacted by the complex interactions between these factors. Our results identify their distinct contributions, 
+revealing how visual effects and VGA metrics shape openness evaluation. This research provides practical tools for 
+data-driven spatial openness analysis, which is a step towards openness-oriented housing design.
 
 % \section{References}
 
