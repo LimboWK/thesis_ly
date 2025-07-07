@@ -66,9 +66,9 @@
 % {\fontsize{12}{14}\selectfont \textbf{A Multifaceted Exploration of Spatial Openness in Rental Housing: Big Data Analysis Across Tokyo's 23 Wards}}\\
 {\fontsize{12}{14}\selectfont \spaceskip=0pt plus 1fil \textbf{Multifaceted Exploration of Spatial Openness in Rental Housing: A Big Data Analysis in Tokyo's 23 Wards}}\\
 
-% Line 3: Title in Japanese (MS Mincho, 11pt, Center)
+% Line 3: Title in Japanese (Noto Sans CJK, 11pt, Center, Bold)
 \begin{CJK}{UTF8}{min}
-{\fontsize{11}{11}\selectfont 賃貸住宅における空間開放性の多面的探究：東京23区のビッグデータ分析}
+{\fontsize{11}{11}\selectfont {賃貸住宅における空間開放性の多面的探究：東京23区のビッグデータ分析}}
 \end{CJK}\\
 % Line 4: blank
 \end{center}
@@ -102,10 +102,10 @@ Our approach enables automated spatial quality analysis, opening possibilities f
 \subsection{Dataset and Attributes}
 
 Our dataset comprises a few thousand rental properties from Tokyo's 23 wards (1960-present), 
-sampled to ensure each decade has approximately equal representation and filtered for image quality and data completeness. The data selection process is
+sampled to ensure each decade has roughly equal data and filtered for image quality and data completeness. The data selection process is
 shown as Figure \ref{fig:data_selection}.
 \begin{center}
-    \includegraphics[width=0.9\columnwidth]{plots/data_filtering.png}
+    \includegraphics[width=0.95\columnwidth]{plots/data_filtering.png}
     \captionof{figure}{Data selection and filtering process.}
     \label{fig:data_selection}
 \end{center}
@@ -115,7 +115,7 @@ shown as Figure \ref{fig:data_selection}.
 As illustrated in Figure \ref{fig:overview_02}, this overview shows our methodology extracts multiple categories of spatial openness 
 attributes through 3D interior images, 2D floorplan data, and property specifications, as well as our following data analysis. 
 \begin{center}
-    \includegraphics[width=1\columnwidth]{plots/overview.png}
+    \includegraphics[width=0.95\columnwidth]{plots/overview.png}
     \captionof{figure}{Feature extraction overview.}
     \label{fig:overview_02}
 \end{center}
@@ -128,16 +128,9 @@ while VGA-based statistics are computed from floorplan analysis to quantify spat
 
 \subsection{Interior Elements}
 We apply Mask2Former semantic segmentation to extract wall, ceiling, floor, and window ratios from interior images. 
-A CNN extracts features for impression score generation via MLP, as shown in Figure \ref{fig:interior_semseg}.
+The fractions of each visual element are calculated by the fraction of pixels from the segmentation mask.
 
 
-\begin{center}
-    \includegraphics[width=0.6\columnwidth,height=1\columnwidth]{plots/exp_lv_semseg_4.png}
-    % \\[0.5em]
-    % \includegraphics[width=\columnwidth]{plots/exp_lv_semseg_1.jpg}
-    \captionof{figure}{Interior semantic segmentation and impression scoring.}
-    \label{fig:interior_semseg}
-\end{center}
 
 \subsection{VGA-based Statistics}
 For floorplan data, we use semantic segmentation to identify walls, rooms, and open areas. 
@@ -151,6 +144,15 @@ This creates a VGA heatmap showing spatial connectivity throughout the floorplan
 (mean, standard deviation, percentiles) from this heatmap as spatial openness features, as shown in Figure \ref{fig:madori_processing}.
 After extracting the statistics, we can utilize them to analyze their distributions and correlations with other attributes to enhance the understanding of spatial openness.
 of the openness of the properties.
+
+\begin{center}
+    \includegraphics[width=0.99\columnwidth]{plots/exp_lv_semseg_5.png}
+    % \\[0.5em]
+    % \includegraphics[width=\columnwidth]{plots/exp_lv_semseg_1.jpg}
+    \captionof{figure}{Interior semantic segmentation and impression scoring.}
+    \label{fig:interior_semseg}
+\end{center}
+
 \vspace{1em}
 
 \section{Attribute Distributions and Correlations}
@@ -160,14 +162,14 @@ From the tabular features of the properties, we have various information, with t
 being building age and geographic factors. 
 We examined the distribution of VGA mean values across construction dates in decades, as shown in 
 Figure \ref{fig:temporal_analysis}.
-\begin{center}
-    \includegraphics[width=0.9\columnwidth]{plots/vga_process.png}
-    \captionof{figure}{Workflow of creating VGA heatmap from floorplan data: raw floorplan, semantic segmentation output, physical gridding, and VGA heatmap.}
-    \label{fig:madori_processing}
-\end{center}
 
 The analysis shows VGA mean values contain large outliers but remain stable across decades, likely due to large-area properties. 
 The impression scores show more balanced distributions, as they are evaluated from interior images that are less dependent of overall property layouts.
+\begin{center}
+    \includegraphics[width=0.95\columnwidth]{plots/vga_process.png}
+    \captionof{figure}{Workflow of creating VGA heatmap from floorplan data: raw floorplan, semantic segmentation output, physical gridding, and VGA heatmap.}
+    \label{fig:madori_processing}
+\end{center}
 
 \begin{center}
     \includegraphics[width=0.9\columnwidth]{plots/vga_10years_box.png}
