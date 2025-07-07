@@ -128,8 +128,9 @@ while VGA-based statistics are computed from floorplan analysis to quantify spat
 
 \subsection{Interior Elements}
 We apply Mask2Former semantic segmentation to extract wall, ceiling, floor, and window ratios from interior images. 
-The fractions of each visual element are calculated by the fraction of pixels from the segmentation mask.
-
+The fractions of each visual element are calculated by the fraction of pixels from the segmentation mask, as shown in
+Figure \ref{fig:interior_semseg}.
+\vspace{1em}
 
 
 \subsection{VGA-based Statistics}
@@ -152,7 +153,6 @@ of the openness of the properties.
     \captionof{figure}{Interior semantic segmentation and impression scoring.}
     \label{fig:interior_semseg}
 \end{center}
-
 \vspace{1em}
 
 \section{Attribute Distributions and Correlations}

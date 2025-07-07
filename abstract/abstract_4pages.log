@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  7 JUL 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  7 JUL 2025 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -534,30 +534,30 @@ Package pdftex.def Info: plots/overview.png  used on input line 118.
  [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./plots/data_filtering.png> <./plots/overview.png>]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 138.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 139.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 138.
+(Font)              size <5> substituted on input line 139.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 138.
+(Font)              size <5> substituted on input line 139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 138.
+(Font)              size <5> substituted on input line 139.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 138.
+(Font)              <11> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 138.
+(Font)              <7.69997> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 138.
+(Font)              <5.5> on input line 139.
 <plots/exp_lv_semseg_5.png, id=28, 997.7275pt x 366.36874pt>
 File: plots/exp_lv_semseg_5.png Graphic file (type png)
 <use plots/exp_lv_semseg_5.png>
-Package pdftex.def Info: plots/exp_lv_semseg_5.png  used on input line 149.
+Package pdftex.def Info: plots/exp_lv_semseg_5.png  used on input line 150.
 (pdftex.def)             Requested size: 235.20601pt x 86.36499pt.
 <plots/vga_process.png, id=29, 995.72pt x 1297.84875pt>
 File: plots/vga_process.png Graphic file (type png)
@@ -618,9 +618,6 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  8581 strings out of 473190
@@ -631,7 +628,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,6n,93p,770b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on abstract_4pages.pdf (4 pages, 4656391 bytes).
+Output written on abstract_4pages.pdf (4 pages, 4656402 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
