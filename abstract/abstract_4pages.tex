@@ -49,14 +49,23 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5ex}
 
-\begin{document}
+% Control word spacing
+\spaceskip=0pt
 
+
+
+
+
+
+\begin{document}
 % First page header setup (6 lines from top)
 \begin{center}
 % Line 1: blank
 ~\\
 % Line 2: Title in English (Times New Roman, 12pt, Center)
-{\fontsize{12}{14}\selectfont \textbf{A Multifaceted Exploration of Spatial Openness in Rental Housing: Big Data Analysis Across Tokyo's 23 Wards}}\\
+% {\fontsize{12}{14}\selectfont \textbf{A Multifaceted Exploration of Spatial Openness in Rental Housing: Big Data Analysis Across Tokyo's 23 Wards}}\\
+{\fontsize{12}{14}\selectfont \spaceskip=0pt plus 1fil \textbf{Multifaceted Exploration of Spatial Openness in Rental Housing: A Big Data Analysis in Tokyo's 23 Wards}}\\
+
 % Line 3: Title in Japanese (MS Mincho, 11pt, Center)
 \begin{CJK}{UTF8}{min}
 {\fontsize{11}{11}\selectfont 賃貸住宅における空間開放性の多面的探究：東京23区のビッグデータ分析}
@@ -65,12 +74,14 @@
 \end{center}
 % Line 5: Affiliation, Student ID, Name (Times New Roman, 11pt, Right-justified)
 \begin{flushright}
-{\fontsize{11}{13}\selectfont  OKI Lab  23M58033 \begin{CJK}{UTF8}{min}リュ　ゲン\end{CJK} (Liu Yuan)}
+{\fontsize{11}{13}\selectfont \spaceskip=0pt OKI Lab  23M58033 \begin{CJK}{UTF8}{min}リュ　ゲン\end{CJK} (Liu Yuan)}
 \end{flushright}
 % Line 6: blank
+%\vspace{0.1mm}
 % Main body starts from line 7
 \begin{multicols}{2}
 \fontsize{11}{13}\selectfont
+\spaceskip=0pt
 \vspace{1em}
 
 \section{Introduction}
