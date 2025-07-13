@@ -86,13 +86,20 @@
 
 \section{Introduction}
 
-Spatial openness encompasses perceived spaciousness, visual connectivity, and 
-flow within living environments. Traditional approaches using floor area and room count 
-fail to capture nuanced spatial qualities from interior imagery and floor plans.
-This research proposes a methodology integrating interior images with semantic 
-segmentation and visibility graph analysis to quantify spatial openness in rental housing. 
-We analyze distributions across Tokyo's 23 wards and construction decades, investigating correlations with subjective impression scores.
-Our approach enables automated spatial quality analysis, opening possibilities for large-scale urban studies of residential design.
+Understanding spatial openness in residential housing is important for enhancing living quality and 
+guiding architectural design. Traditional indicators such as floor area and room count fail to 
+capture the nuanced spatial qualities present in interior imagery and floor plans. While existing 
+research has explored aspects of spatial openness, a comprehensive evaluation framework is lacking. 
+This study proposes a multifaceted evaluation method of spatial openness in rental housing 
+by leveraging large-scale data from Tokyo's 23 wards.
+
+The study constructs an analytical method that quantitatively extracts housing openness from 
+both 2D and 3D information. Based on a large-scale rental housing dataset from Tokyo's 23 wards, 
+it investigates how openness features vary across geographic regions and construction decades, 
+identifying spatial and temporal patterns. Furthermore, it explores correlations between spatial 
+openness, rental cost, and subjective impression scores. In conclusion, this study proposes a 
+comprehensive framework for evaluating spatial openness, making full use of large-scale rental housing 
+data from Tokyo's 23 wards.
 
 \vspace{1em}
 
@@ -100,11 +107,10 @@ Our approach enables automated spatial quality analysis, opening possibilities f
 
 \subsection{Dataset and Attributes}
 
-Our dataset comprises a few thousand rental properties from Tokyo's 23 wards (1960-present), 
-sampled to ensure each decade has roughly equal data and filtered for image quality and data completeness. The data selection process is
-shown as Figure \ref{fig:data_selection}.
+Our dataset comprises rental properties from Tokyo's 23 wards (1960-present), filtered for image quality and data completeness, 
+as shown in Figure \ref{fig:data_selection}.
 \begin{center}
-    \includegraphics[width=0.95\columnwidth]{plots/data_filtering.png}
+    \includegraphics[width=0.85\columnwidth]{plots/overview.png}
     \captionof{figure}{Data selection and filtering process.}
     \label{fig:data_selection}
 \end{center}
@@ -114,10 +120,11 @@ shown as Figure \ref{fig:data_selection}.
 As illustrated in Figure \ref{fig:overview_02}, this overview shows our methodology extracts multiple categories of spatial openness 
 attributes through 3D interior images, 2D floorplan data, and property specifications, as well as our following data analysis. 
 \begin{center}
-    \includegraphics[width=0.95\columnwidth]{plots/overview.png}
+    \includegraphics[width=0.95\columnwidth]{plots/data_filtering.png}
     \captionof{figure}{Feature extraction overview.}
     \label{fig:overview_02}
 \end{center}
+
 Impression scores (Q3) are extracted using Shimomura et al.'s pre-trained model.
 The following attributes are the focus of our analysis:
 \textbf{room size attributes}, \textbf{property specifications}, \textbf{interior elements}, and \textbf{vga-based statistics}.
