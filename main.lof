@@ -1,6 +1,11 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of interior image from the LIFULL dataset.}}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of floorplan image from the LIFULL dataset.}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Data filtering and preprocessing pipeline showing the systematic approach to ensuring data quality and consistency across interior images, floor plans, and property specifications. The flowchart illustrates the multi-stage filtering process from raw data collection to the final integrated dataset.}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces VGA computational workflow demonstrating the step-by-step process from semantic segmentation of floor plans to statistical analysis of spatial connectivity.}}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Semantic segmentation workflow for architectural element extraction from interior images, showing the process from input image through pixel-wise classification to architectural element ratio calculation.}}{18}{figure.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

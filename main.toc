@@ -9,29 +9,42 @@
 \contentsline {subsection}{\numberline {1.2.3}Big Data Opportunities and Research Gaps}{4}{subsection.1.2.3}%
 \contentsline {section}{\numberline {1.3}Primary Research Objectives}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Structure of the Thesis}{5}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Data Source and Preprocessing}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Methodology}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Overview of the LIFULL Real Estate Dataset}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Definition of Openness}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Data Filtering and Cleaning}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Generation of Subjective Impression Scores (Introduction of the Impression Evaluation Model)}{7}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Quantifying the Openness of Residential Spaces}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Floor Plan Processing and Visibility Graph Analysis (VGA)}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Openness Feature Extraction from Interior Images}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Matching Strategy for Floor Plans and Interior Images}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Visualization Examples of Openness Features}{9}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Influence of Age and Geographic Factors}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Impact of Building Age on Openness-Impression Relationship}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comparative Analysis Across Geographic Areas}{10}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spatial Visualization and Cluster Analysis}{10}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Correlation Analysis Between Subjective Impressions and Openness}{11}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Impression Score Outputs and Interpretation}{11}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Correlation Between Openness Features and Subjective Impressions}{11}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Case Studies and Visual Comparisons}{11}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{12}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of Findings and Contributions}{12}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Limitations and Sources of Error}{12}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Future Research Directions}{12}{section.6.3}%
-\contentsline {chapter}{\numberline {A}An example of an appendix}{13}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Session Protocol}{14}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Software}{16}{appendix.C}%
-\contentsline {chapter}{Bibliography}{18}{appendix*.6}%
+\contentsline {subsection}{\numberline {2.1.1}Dataset Characteristics}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Data Structure and Availability}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Definition of Openness}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Data Filtering and Cleaning}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Multi-Stage Data Filtering Process}{10}{subsection.2.3.1}%
+\contentsline {subsubsection}{Initial Data Selection}{12}{section*.10}%
+\contentsline {subsubsection}{Property Specification Requirements}{12}{section*.11}%
+\contentsline {subsubsection}{Quality Validation and Final Selection}{12}{section*.12}%
+\contentsline {section}{\numberline {2.4}Openness Features Extractions}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Visibility Graph Analysis (VGA) Methodology}{13}{subsection.2.4.1}%
+\contentsline {subsubsection}{Mathematical Definition of VGA}{14}{section*.13}%
+\contentsline {subsubsection}{VGA Computation Process}{15}{section*.14}%
+\contentsline {subsection}{\numberline {2.4.2}Architectural Element Ratios}{17}{subsection.2.4.2}%
+\contentsline {subsubsection}{Segmentation Model}{17}{section*.16}%
+\contentsline {subsubsection}{Pixel-wise Classification}{18}{section*.17}%
+\contentsline {subsubsection}{Ratio Calculation}{19}{section*.19}%
+\contentsline {chapter}{\numberline {3}Quantifying the Openness of Residential Spaces}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Floor Plan Processing and Visibility Graph Analysis (VGA)}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Openness Feature Extraction from Interior Images}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Matching Strategy for Floor Plans and Interior Images}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Visualization Examples of Openness Features}{21}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Influence of Age and Geographic Factors}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Impact of Building Age on Openness-Impression Relationship}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comparative Analysis Across Geographic Areas}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spatial Visualization and Cluster Analysis}{22}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Correlation Analysis Between Subjective Impressions and Openness}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Impression Score Outputs and Interpretation}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Correlation Between Openness Features and Subjective Impressions}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Case Studies and Visual Comparisons}{23}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{24}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Findings and Contributions}{24}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limitations and Sources of Error}{24}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Future Research Directions}{24}{section.6.3}%
+\contentsline {chapter}{\numberline {A}An example of an appendix}{25}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Session Protocol}{26}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Software}{28}{appendix.C}%
+\contentsline {chapter}{Bibliography}{30}{appendix*.20}%

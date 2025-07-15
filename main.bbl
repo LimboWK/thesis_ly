@@ -3,6 +3,15 @@
 \bibitem{hillier1987ideas}
 B.~Hillier, J.~Hanson, and H.~Graham, ``Ideas are in things: an application of the space syntax method to discovering house genotypes,'' {\em Environment and Planning B: planning and design}, vol.~14, no.~4, pp.~363--385, 1987.
 
+\bibitem{turner2001depthmap}
+A.~Turner, ``Depthmap: a program to perform visibility graph analysis,'' in {\em Proceedings of the 3rd international symposium on space syntax}, vol.~31, pp.~31--12, Citeseer, 2001.
+
+\bibitem{liu2024image}
+Y.~Liu, X.~Bai, J.~Wang, G.~Li, J.~Li, and Z.~Lv, ``Image semantic segmentation approach based on deeplabv3 plus network with an attention mechanism,'' {\em Engineering Applications of Artificial Intelligence}, vol.~127, p.~107260, 2024.
+
+\bibitem{cheng2022masked}
+B.~Cheng, I.~Misra, A.~G. Schwing, A.~Kirillov, and R.~Girdhar, ``Masked-attention mask transformer for universal image segmentation,'' in {\em Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pp.~1290--1299, 2022.
+
 \bibitem{dummy2024}
 D.~Author, ``Placeholder reference,'' {\em Placeholder Journal}, 2024.
 \newblock This is a temporary placeholder reference.
