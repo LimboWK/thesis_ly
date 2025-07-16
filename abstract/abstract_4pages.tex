@@ -327,6 +327,127 @@ Wall & 0.65 & -0.22 & -0.27 & 0.32 & 0.60 \\
 \end{center}
 
 
+test table
+\begin{center}
+\begin{tabular}{l|c|l}
+\hline
+Feature & VIF & Status \\
+\hline
+min\_all & 1.35 & Low \\
+max\_all & 28.16 & High \\
+mean\_all & 8.34 & Moderate \\
+std\_all & 5.58 & Moderate \\
+min\_lv & 3.40 & Low \\
+max\_lv & 37.94 & High \\
+std\_lv & 3.63 & Low \\
+median\_lv & 18.29 & High \\
+window & 1.06 & Low \\
+floor & 1.21 & Low \\
+ceiling & 1.13 & Low \\
+wall & 1.23 & Low \\
+\hline
+\end{tabular}
+\captionof{table}{Variance Inflation Factor (VIF) for multicollinearity assessment, VIF > 10: High,
+VIF > 5: Moderate,
+VIF < 5: Low}
+\label{tab:vif_analysis}
+\end{center}
+
+\vspace{10em}
+
+\begin{center}
+\begin{tabular}{l|c|l}
+\hline
+Feature & VIF & Status \\
+\hline
+min\_value\_raw\_all & 1.33 & Low \\
+max\_value\_raw\_all & 9.24 & Moderate \\
+mean\_value\_raw\_all & 5.42 & Moderate \\
+std\_value\_raw\_all & 4.09 & Low \\
+min\_value\_raw\_lv & 2.86 & Low \\
+std\_value\_raw\_lv & 2.92 & Low \\
+ceiling & 1.03 & Low \\
+\hline
+\end{tabular}
+\captionof{table}{Variance Inflation Factor (VIF) for multicollinearity assessment (after feature selection), VIF > 10: High,
+VIF > 5: Moderate,
+VIF < 5: Low}
+\label{tab:vif_analysis_updated}
+\end{center}
+
+
+
+
+\begin{center}
+\begin{tabular}{l|c|c|c|c|c}
+\hline
+Feature & Coef. & Std & t-stat & p-value & Sig. \\
+ & ($\times 10^3$) & ($\times 10^2$) & & & \\
+\hline
+min\_all & -2.68 & 5.90 & -4.55 & 0.00 & Y \\
+max\_all & 26.70 & 27.00 & 9.89 & 0.00 & Y \\
+mean\_all & -23.80 & 14.70 & -16.19 & 0.00 & Y \\
+std\_all & 6.77 & 12.00 & 5.64 & 0.00 & Y \\
+min\_lv & -6.20 & 9.38 & -6.61 & 0.00 & Y \\
+max\_lv & -4.08 & 31.30 & -1.30 & 0.19 & N \\
+std\_lv & -7.97 & 9.69 & -8.23 & 0.00 & Y \\
+median\_lv & 18.10 & 21.70 & 8.31 & 0.00 & Y \\
+window & -0.07 & 5.24 & -0.14 & 0.89 & N \\
+floor & -2.01 & 5.59 & -3.59 & 0.00 & Y \\
+ceiling & 7.49 & 5.41 & 13.83 & 0.00 & Y \\
+wall & -0.10 & 5.63 & -0.19 & 0.85 & N \\
+\hline
+\end{tabular}
+\captionof{table}{Feature coefficients for rent prediction (normalized features), their t-stats and p-values in the test againest the impact towards the rent price. Confidence level set to 95\%.}
+\label{tab:regression_coefficients}
+\end{center}
+
+\begin{center}
+\begin{tabular}{l|c|c|c|c|c}
+\hline
+Feature & Coef. & Std & t-stat & p-value & Sig. \\
+ & ($\times 10^3$) & ($\times 10^2$) & & & \\
+\hline
+min\_all & -2.15 & 5.95 & -3.61 & 0.00 & Y \\
+max\_all & 25.48 & 15.67 & 16.27 & 0.00 & Y \\
+mean\_all & -16.63 & 12.00 & -13.86 & 0.00 & Y \\
+std\_all & 12.13 & 10.42 & 11.64 & 0.00 & Y \\
+min\_lv & -3.37 & 8.72 & -3.86 & 0.00 & Y \\
+std\_lv & -6.80 & 8.81 & -7.72 & 0.00 & Y \\
+ceiling & 8.30 & 5.23 & 15.86 & 0.00 & Y \\
+\hline
+\end{tabular}
+\captionof{table}{Feature coefficients (after feature selection) for rent\_plus\_management\_fee prediction (normalized features), their t-stats and p-values in the test against the impact towards the rent price. Confidence level set to 95\%.}
+\label{tab:regression_coefficients_plus_fee}
+\end{center}
+
+\begin{center}
+\begin{tabular}{l|l}
+\hline
+\textbf{Abbr.} & \textbf{Description} \\
+\hline
+min\_all & Min VGA (whole property) \\
+max\_all & Max VGA (whole property) \\
+mean\_all & Mean VGA (whole property) \\
+std\_all & Std VGA (whole property) \\
+min\_lv & Min VGA (living room) \\
+max\_lv & Max VGA (living room) \\
+std\_lv & Std VGA (living room) \\
+median\_lv & Median VGA (living room) \\
+window & Window fraction \\
+floor & Floor fraction \\
+ceiling & Ceiling fraction \\
+wall & Wall fraction \\
+\hline
+\end{tabular}
+\captionof{table}{Feature abbreviations and descriptions.}
+\label{tab:feature_abbreviations}
+\end{center}
+
+
+
+
+
 \vspace{1em}
 
 \section{Conclusions}

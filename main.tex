@@ -42,6 +42,11 @@
 
 
 \usepackage[letterpaper, top=1in, bottom = 1in, right = 1in]{geometry} %this describes the layout of the document and the margins etc.
+
+% CJK support for Japanese characters in bibliography
+\usepackage{CJKutf8}
+\usepackage{CJK}
+
 \doublespacing %self explanatory
 
 
@@ -107,8 +112,10 @@
 % Bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{CJK}{UTF8}{min}
 \bibliographystyle{ieeetr}
 \bibliography{references}
+\end{CJK}
 
 
 \end{document}

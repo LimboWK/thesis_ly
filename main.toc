@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{List of Figures}{iii}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{iv}{chapter*.3}%
+\contentsline {chapter}{List of Figures}{iv}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{vi}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Research Background and Motivation}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Literature Review and Research Gaps}{3}{section.1.2}%
@@ -27,24 +27,34 @@
 \contentsline {subsubsection}{Segmentation Model}{17}{section*.16}%
 \contentsline {subsubsection}{Pixel-wise Classification}{18}{section*.17}%
 \contentsline {subsubsection}{Ratio Calculation}{19}{section*.19}%
-\contentsline {chapter}{\numberline {3}Quantifying the Openness of Residential Spaces}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Floor Plan Processing and Visibility Graph Analysis (VGA)}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Openness Feature Extraction from Interior Images}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Matching Strategy for Floor Plans and Interior Images}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Visualization Examples of Openness Features}{21}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Influence of Age and Geographic Factors}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Impact of Building Age on Openness-Impression Relationship}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comparative Analysis Across Geographic Areas}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spatial Visualization and Cluster Analysis}{22}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Correlation Analysis Between Subjective Impressions and Openness}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Impression Score Outputs and Interpretation}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Correlation Between Openness Features and Subjective Impressions}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Case Studies and Visual Comparisons}{23}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of Findings and Contributions}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Limitations and Sources of Error}{24}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Future Research Directions}{24}{section.6.3}%
-\contentsline {chapter}{\numberline {A}An example of an appendix}{25}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Session Protocol}{26}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Software}{28}{appendix.C}%
-\contentsline {chapter}{Bibliography}{30}{appendix*.20}%
+\contentsline {chapter}{\numberline {3}Results}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Temporal Trend of Openness Indicators}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Pairwise Analysis of Temporal Changes for Each Indicator}{22}{subsection.3.1.1}%
+\contentsline {subsubsection}{Mean VGA of whole property}{22}{section*.22}%
+\contentsline {subsubsection}{Mean VGA of living room}{23}{section*.24}%
+\contentsline {subsubsection}{Standard deviation of VGA of whole property}{24}{section*.26}%
+\contentsline {subsubsection}{Window Ratio}{25}{section*.28}%
+\contentsline {section}{\numberline {3.2}Geospatial Distribution of Openness Indicators}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Correlation Analysis Among Indicators and with Rent and Others}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Predictive Modeling of Rental Prices}{31}{section.3.4}%
+\contentsline {subsubsection}{Fitting with Unselected Features }{31}{section*.32}%
+\contentsline {subsubsection}{Correlation and VIF Checks to Reduce Multicollinearity}{32}{section*.35}%
+\contentsline {subsubsection}{Stepwise Feature Selection for Optimal Model}{35}{section*.38}%
+\contentsline {subsubsection}{Interpretation of Feature Importance}{36}{section*.39}%
+\contentsline {section}{\numberline {3.5}Visual Validation of Openness Indicators}{36}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Influence of Age and Geographic Factors}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Impact of Building Age on Openness-Impression Relationship}{39}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comparative Analysis Across Geographic Areas}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spatial Visualization and Cluster Analysis}{39}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Correlation Analysis Between Subjective Impressions and Openness}{40}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Impression Score Outputs and Interpretation}{40}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Correlation Between Openness Features and Subjective Impressions}{40}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Case Studies and Visual Comparisons}{40}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{41}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Findings and Contributions}{41}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limitations and Sources of Error}{41}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Future Research Directions}{41}{section.6.3}%
+\contentsline {chapter}{\numberline {A}An example of an appendix}{42}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Session Protocol}{43}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Software}{45}{appendix.C}%
+\contentsline {chapter}{Bibliography}{47}{appendix*.42}%

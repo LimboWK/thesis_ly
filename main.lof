@@ -7,6 +7,14 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces VGA computational workflow demonstrating the step-by-step process from semantic segmentation of floor plans to statistical analysis of spatial connectivity.}}{16}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Semantic segmentation workflow for architectural element extraction from interior images, showing the process from input image through pixel-wise classification to architectural element ratio calculation.}}{18}{figure.caption.18}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Temporal trends of openness indicators by construction decade showing (a) 2D openness scores for entire house, (b) 2D visibility scores for living rooms, (c) Standard deviation of 2D openness, and (d) 3D openness indicators (ceiling and window proportions). (***: 0.1\%, **: 1\%, *:5\%, ***:10\%)}}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Geospatial distribution maps showing: (a) Property rent levels, (b) Construction year distribution, (c) Floor area patterns, (d) Living room window ratios, (e) 2D openness for living rooms, and (f) 2D openness for entire houses.}}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Correlation analysis showing: (a) 2D vs 3D openness indicators, (b) Mean vs standard deviation of 2D openness, (c) Relationships among 3D openness indicators, (d) 2D openness vs impression evaluation scores, and (e) Openness indicators vs rent levels.}}{29}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Predictive performance and feature importance analysis for rental price prediction using openness indicators. The figure shows R² scores and relative importance rankings of different spatial openness measures in determining rental prices.}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Predictive performance of openness indicators for rental price prediction showing R² scores and feature importance rankings. The model demonstrates the relative contribution of different spatial openness measures to rental price determination.}}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Correlation matrix and feature importance analysis for the 12 selected openness indicators used in rental price prediction. The heatmap shows inter-feature correlations while the importance scores indicate each feature's contribution to the predictive model.}}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Predictive performance of with reduced features}}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Feature importance of the 7 selected features}}{37}{figure.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -12,8 +12,7 @@ Y.~Liu, X.~Bai, J.~Wang, G.~Li, J.~Li, and Z.~Lv, ``Image semantic segmentation 
 \bibitem{cheng2022masked}
 B.~Cheng, I.~Misra, A.~G. Schwing, A.~Kirillov, and R.~Girdhar, ``Masked-attention mask transformer for universal image segmentation,'' in {\em Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pp.~1290--1299, 2022.
 
-\bibitem{dummy2024}
-D.~Author, ``Placeholder reference,'' {\em Placeholder Journal}, 2024.
-\newblock This is a temporary placeholder reference.
+\bibitem{oki2023rental}
+沖拓弥, 下村隼生, and 山崎俊彦, ``賃貸物件ビッグデータとアンケートに基づく子育て世帯の住宅選好分析 その1：アンケートと住宅選好予測モデルの概要,'' in {\em 日本建築学会大会学術講演梗概集}, 情報システム技術, pp.~29--30, 日本建築学会, September 2023.
 
 \end{thebibliography}
