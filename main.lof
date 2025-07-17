@@ -15,9 +15,14 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Correlation matrix and feature importance analysis for the 12 selected openness indicators used in rental price prediction. The heatmap shows inter-feature correlations while the importance scores indicate each feature's contribution to the predictive model.}}{34}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Predictive performance of with reduced features}}{37}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Feature importance of the 7 selected features}}{37}{figure.caption.41}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) mean VGA values for entire property, showing both floor plans and corresponding living room images.}}{38}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) VGA standard deviation values, demonstrating spatial diversity within properties with both floor plans and corresponding living room images.}}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) window ratios, showing the impact of glazing on interior brightness and openness perception with both floor plans and corresponding living room images.}}{40}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) ceiling visibility ratios, illustrating the impact of vertical space design with both floor plans and corresponding living room images.}}{41}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) floor visibility ratios, showing the impact of floor area visibility on spatial perception with both floor plans and corresponding living room images.}}{42}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Comparison of properties with high (top row) and low (bottom row) wall visibility ratios, demonstrating the relationship between architectural complexity and wall exposure with both floor plans and corresponding living room images.}}{43}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Properties with high mean VGA values but low window ratios, demonstrating 2D openness achieved through layout design rather than glazing with both floor plans and corresponding interior images.}}{44}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Properties with both high mean VGA values and high window ratios, representing optimal combinations of 2D and 3D openness characteristics with both floor plans and corresponding interior images.}}{44}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Properties with low mean VGA values but high window ratios, showing how extensive glazing can provide openness despite compartmentalized layouts with both floor plans and corresponding interior images.}}{45}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Properties with both low mean VGA values and low window ratios, representing the most enclosed characteristics with emphasis on privacy and separation with both floor plans and corresponding interior images.}}{45}{figure.caption.61}%
 \addvspace {10\p@ }

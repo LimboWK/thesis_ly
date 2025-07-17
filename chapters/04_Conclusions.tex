@@ -1,0 +1,172 @@
+\chapter{Conclusions}
+
+\section{Summary of Key Findings}
+
+This thesis presented a comprehensive methodology for quantifying spatial openness in residential 
+properties through the integration of computer vision techniques and large-scale data analysis. By 
+analyzing 4,004 rental properties across Tokyo's 23 wards, we developed a multifaceted evaluation 
+approach that combines 2D visibility graph analysis (VGA) from floor plans with 3D architectural 
+element extraction from interior photographs.
+
+Our analysis revealed several significant findings regarding the evolution and distribution of 
+spatial openness in Tokyo's residential architecture:
+
+\subsection{Temporal Evolution of Spatial Design}
+
+The temporal analysis uncovered a clear paradigm shift in residential design philosophy between the 
+1960s and 1970s. Properties constructed in the 1960s consistently demonstrated higher VGA values 
+across all metrics, with the most pronounced differences observed in the standard deviation of 
+spatial connectivity (effect size $\eta^2 = 0.0609$, medium effect). This suggests that post-war 
+reconstruction era housing featured more spatially integrated and varied layouts compared to the 
+standardized designs that emerged from the 1970s onward.
+
+The progressive compartmentalization of living spaces continued through the 2000s, particularly 
+evident in living room designs where mean VGA values declined by up to 11.72\% from the 1960s to 
+2000s. However, this trend stabilized by the 1990s, indicating that modern residential design has 
+reached an equilibrium between openness and functional separation. Notably, the 2010s marked a 
+partial reversal of this trend through increased window ratios (up to 30.54\% higher than previous 
+decades), suggesting a renewed emphasis on natural light and visual connection to the exterior 
+environment.
+
+\subsection{Geographic Patterns of Openness}
+
+The geospatial analysis revealed that spatial openness characteristics are not uniformly distributed 
+across Tokyo but rather follow distinct patterns influenced by urban development and housing 
+typology. Central Tokyo areas demonstrated higher window ratios, likely driven by high-rise 
+apartment developments that prioritize views and natural light. In contrast, suburban areas showed 
+lower VGA values, reflecting traditional Japanese housing preferences for privacy and clearly 
+delineated functional spaces.
+
+The scattered distribution of high VGA properties throughout the city suggests that open floor plans 
+are not concentrated in specific districts but rather represent diverse architectural responses to 
+local conditions, development timing, and target demographics. This finding challenges assumptions 
+about uniform architectural trends within urban zones.
+
+\subsection{Independence of 2D and 3D Openness Measures}
+
+A critical finding emerged from the correlation analysis: 2D spatial connectivity (VGA) and 3D 
+architectural elements (window, ceiling, floor, and wall ratios) operate as independent dimensions 
+of openness. The lack of correlation between these measures indicates that horizontal spatial flow 
+and vertical spatial qualities can be optimized separately, offering designers multiple pathways to 
+create a sense of openness.
+
+This independence was further validated through visual examples showing properties with high VGA but 
+low window ratios achieving openness through layout design, while others with compartmentalized 
+floor plans compensated through extensive glazing. This finding has important implications for 
+design flexibility in constrained urban environments.
+
+\subsection{Market Valuation of Spatial Openness}
+
+The regression analysis demonstrated that spatial openness characteristics contribute moderately to 
+rental price determination ($R^2 = 0.3$). Among the openness indicators, whole-property VGA 
+statistics showed the highest predictive importance, suggesting that overall spatial connectivity 
+matters more to market valuation than room-specific features. The retention of all whole-property 
+VGA indicators (minimum, maximum, mean, and standard deviation) after multicollinearity reduction 
+further emphasizes their distinct contributions to perceived value.
+
+However, the disconnect between objective openness measures and subjective impression scores 
+highlights the complexity of spatial perception. While our quantitative indicators capture important 
+spatial characteristics, factors such as interior design, furniture arrangement, and aesthetic 
+elements play equally important roles in shaping user experiences and preferences.
+
+\section{Future Work}
+
+While this study advances the quantification and analysis of spatial openness in residential 
+environments, several limitations and areas for improvement have been identified that warrant future 
+investigation:
+
+\subsection{VGA Methodology Refinement}
+
+The current VGA implementation faces accuracy limitations due to the granularity constraints of 
+grid-based discretization. Our approach, while scalable, does not achieve the precision of 
+ray-casting visibility algorithms used in specialized architectural software. Future work should 
+explore:
+
+\begin{itemize}
+    \item Development of hybrid approaches that balance computational efficiency with accuracy
+    \item Alignment with established architectural analysis benchmarks to validate results
+    \item Investigation of adaptive grid resolutions that increase density in areas of high spatial 
+    complexity
+    \item Integration of more sophisticated visibility algorithms that account for partial occlusions 
+    and graduated visual connections
+\end{itemize}
+
+\subsection{3D Indicator Robustness}
+
+The extraction of 3D openness indicators from interior photographs revealed sensitivity to camera 
+angles and shooting positions. Properties photographed from extreme high or low angles showed biased 
+ratios for floor and ceiling elements, potentially leading to misrepresentative conclusions. Future 
+research should address:
+
+\begin{itemize}
+    \item Development of angle-correction algorithms to normalize architectural element ratios
+    \item Direct extraction of lighting conditions using specialized computer vision models
+    \item Integration of depth estimation techniques to better understand spatial volumes
+    \item Creation of standardized photography protocols for rental listings to ensure consistency
+\end{itemize}
+
+\subsection{Causal Analysis Framework}
+
+The current study focused on correlational relationships between openness indicators and various 
+outcomes. However, correlation does not imply causation, and establishing causal links would provide 
+more actionable insights for design and policy decisions. Future work should investigate:
+
+\begin{itemize}
+    \item Development of causal inference frameworks to understand the directional relationships 
+    between spatial design choices and outcomes
+    \item Longitudinal studies tracking how renovations affecting openness impact rental prices and 
+    tenant satisfaction
+    \item Natural experiments leveraging regulatory changes or development patterns
+    \item Integration of additional confounding variables such as neighborhood characteristics and 
+    building amenities
+\end{itemize}
+
+The moderate $R^2$ values in our regression models suggest that while openness indicators contribute 
+to rental pricing, many other factors remain unaccounted for. A more comprehensive causal framework 
+would help isolate the specific impact of spatial openness from other property attributes.
+
+\subsection{Scale and Generalizability}
+
+The dataset of 4,004 properties, while substantial for a study involving detailed spatial analysis, 
+represents a limited sample given Tokyo's vast rental market. The filtering process necessary to 
+ensure data quality further constrained the sample size. Future research should address:
+
+\begin{itemize}
+    \item Expansion to larger datasets through improved automation of data processing pipelines
+    \item Validation of findings across different cities and cultural contexts
+    \item Development of transfer learning approaches to apply models trained on high-quality data to 
+    lower-quality datasets
+    \item Investigation of temporal stability through repeated sampling over multiple years
+\end{itemize}
+
+% \subsection{Integration of Subjective Experiences}
+
+% The weak correlation between objective openness measures and impression evaluation scores highlights 
+% the need for better integration of subjective spatial experiences. Future work should explore:
+
+% \begin{itemize}
+%     \item Development of multi-modal evaluation frameworks that combine objective measures with user 
+%     perception data
+%     \item Virtual reality studies to understand how different openness characteristics impact spatial 
+%     experience
+%     \item Ethnographic research to capture cultural and demographic variations in openness preferences
+%     \item Machine learning approaches that can predict subjective responses from combinations of 
+%     objective features
+% \end{itemize}
+
+% \subsection{Methodological Innovations}
+
+% Several methodological improvements could enhance the robustness and applicability of this research:
+
+% \begin{itemize}
+%     \item Development of uncertainty quantification methods for both VGA and semantic segmentation 
+%     outputs
+%     \item Creation of ensemble approaches that combine multiple computer vision models for more 
+%     reliable architectural element detection
+%     \item Investigation of graph neural networks for more sophisticated spatial relationship modeling
+%     \item Integration of natural language processing to analyze property descriptions and tenant 
+%     reviews
+% \end{itemize}
+
+These future directions would not only address current limitations but also expand the scope and 
+impact of spatial openness research, ultimately contributing to better-designed living environments.

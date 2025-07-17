@@ -482,11 +482,360 @@ not aiming to comprehensively predict the rent price under any assumption.
 \section{Visual Validation of Openness Indicators}
 
 To validate the reliability and interpretability of our openness indicators, we present a visual 
-comparison of properties with varying openness characteristics. This section showcases floor plans 
-and living room images from properties with high, medium, and low openness scores across different 
-indicators.
+comparison of properties with varying openness characteristics. For each indicator, we collected 
+properties from the top 25\% and bottom 25\% of the distribution, then sampled 2 properties 
+from each group to showcase the intuitive impressions associated with different indicator values. 
+This section simply showcases floor plans and corresponding living room images.
 
 The visual examples demonstrate how the quantitative measures correspond to observable spatial 
 characteristics, providing intuitive understanding of what the numerical indicators represent in 
 actual residential spaces. This validation helps bridge the gap between computational analysis and 
-human perception of spatial openness.
+human perception of spatial openness as an extra validation of the effectiveness of our methodolgies.
+
+\subsection{2D Openness Indicators}
+
+\subsubsection{Mean VGA Values - Whole Property}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg}
+        \caption*{High VGA - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg}
+        \caption*{High VGA - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg}
+        \caption*{High VGA - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg}
+        \caption*{High VGA - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg}
+        \caption*{Low VGA - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg}
+        \caption*{Low VGA - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg}
+        \caption*{Low VGA - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg}
+        \caption*{Low VGA - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) mean VGA values for entire property, showing both floor plans and corresponding living room images.}
+    \label{fig:mean_vga_comparison}
+\end{figure}
+
+\subsubsection{Standard Deviation of VGA Values}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg}
+        \caption*{High Std - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg}
+        \caption*{High Std - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg}
+        \caption*{High Std - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg}
+        \caption*{High Std - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg}
+        \caption*{Low Std - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg}
+        \caption*{Low Std - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg}
+        \caption*{Low Std - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg}
+        \caption*{Low Std - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) VGA standard deviation values, demonstrating spatial diversity within properties with both floor plans and corresponding living room images.}
+    \label{fig:std_vga_comparison}
+\end{figure}
+
+\subsection{3D Openness Indicators}
+
+\subsubsection{Window Ratio}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg}
+        \caption*{High Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg}
+        \caption*{High Window - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg}
+        \caption*{High Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg}
+        \caption*{High Window - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg}
+        \caption*{Low Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg}
+        \caption*{Low Window - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg}
+        \caption*{Low Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg}
+        \caption*{Low Window - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) window ratios, showing the impact of glazing on interior brightness and openness perception with both floor plans and corresponding living room images.}
+    \label{fig:windowpane_comparison}
+\end{figure}
+
+\subsubsection{Ceiling Visibility}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg}
+        \caption*{High Ceiling - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg}
+        \caption*{High Ceiling - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg}
+        \caption*{High Ceiling - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg}
+        \caption*{High Ceiling - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg}
+        \caption*{Low Ceiling - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg}
+        \caption*{Low Ceiling - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg}
+        \caption*{Low Ceiling - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg}
+        \caption*{Low Ceiling - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) ceiling visibility ratios, illustrating the impact of vertical space design with both floor plans and corresponding living room images.}
+    \label{fig:ceiling_comparison}
+\end{figure}
+
+\subsubsection{Floor Visibility}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg}
+        \caption*{High Floor - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg}
+        \caption*{High Floor - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg}
+        \caption*{High Floor - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg}
+        \caption*{High Floor - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg}
+        \caption*{Low Floor - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg}
+        \caption*{Low Floor - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg}
+        \caption*{Low Floor - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg}
+        \caption*{Low Floor - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) floor visibility ratios, showing the impact of floor area visibility on spatial perception with both floor plans and corresponding living room images.}
+    \label{fig:floor_comparison}
+\end{figure}
+
+\subsubsection{Wall Visibility}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg}
+        \caption*{High Wall - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg}
+        \caption*{High Wall - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg}
+        \caption*{High Wall - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg}
+        \caption*{High Wall - Living Room 2}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg}
+        \caption*{Low Wall - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg}
+        \caption*{Low Wall - Living Room 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg}
+        \caption*{Low Wall - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg}
+        \caption*{Low Wall - Living Room 2}
+    \end{subfigure}
+    \caption{Comparison of properties with high (top row) and low (bottom row) wall visibility ratios, demonstrating the relationship between architectural complexity and wall exposure with both floor plans and corresponding living room images.}
+    \label{fig:wall_comparison}
+\end{figure}
+
+\subsection{Combined Indicator Analysis}
+
+\subsubsection{High VGA with Low Window Ratio}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg}
+        \caption*{High VGA Low Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg}
+        \caption*{High VGA Low Window - Interior 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg}
+        \caption*{High VGA Low Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg}
+        \caption*{High VGA Low Window - Interior 2}
+    \end{subfigure}
+    \caption{Properties with high mean VGA values but low window ratios, demonstrating 2D openness achieved through layout design rather than glazing with both floor plans and corresponding interior images.}
+    \label{fig:high_vga_low_window}
+\end{figure}
+
+\subsubsection{High VGA with High Window Ratio}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg}
+        \caption*{High VGA High Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg}
+        \caption*{High VGA High Window - Interior 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg}
+        \caption*{High VGA High Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg}
+        \caption*{High VGA High Window - Interior 2}
+    \end{subfigure}
+    \caption{Properties with both high mean VGA values and high window ratios, representing optimal combinations of 2D and 3D openness characteristics with both floor plans and corresponding interior images.}
+    \label{fig:high_vga_high_window}
+\end{figure}
+
+\subsubsection{Low VGA with High Window Ratio}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg}
+        \caption*{Low VGA High Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg}
+        \caption*{Low VGA High Window - Interior 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg}
+        \caption*{Low VGA High Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg}
+        \caption*{Low VGA High Window - Interior 2}
+    \end{subfigure}
+    \caption{Properties with low mean VGA values but high window ratios, showing how extensive glazing can provide openness despite compartmentalized layouts with both floor plans and corresponding interior images.}
+    \label{fig:low_vga_high_window}
+\end{figure}
+
+\subsubsection{Low VGA with Low Window Ratio}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg}
+        \caption*{Low VGA Low Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg}
+        \caption*{Low VGA Low Window - Interior 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg}
+        \caption*{Low VGA Low Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg}
+        \caption*{Low VGA Low Window - Interior 2}
+    \end{subfigure}
+    \caption{Properties with both low mean VGA values and low window ratios, representing the most enclosed characteristics with emphasis on privacy and separation with both floor plans and corresponding interior images.}
+    \label{fig:low_vga_low_window}
+\end{figure}
