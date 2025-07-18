@@ -3,8 +3,14 @@
 \bibitem{hillier1987ideas}
 B.~Hillier, J.~Hanson, and H.~Graham, ``Ideas are in things: an application of the space syntax method to discovering house genotypes,'' {\em Environment and Planning B: planning and design}, vol.~14, no.~4, pp.~363--385, 1987.
 
+\bibitem{yamada2021graph}
+M.~Yamada, X.~Wang, and T.~Yamasaki, ``Graph structure extraction from floor plan images and its application to similar property recommendation,'' in {\em 2021 IEEE International Conference on Consumer Electronics (ICCE)}, (Las Vegas, NV, USA), pp.~1--2, IEEE, 2021.
+
 \bibitem{turner2001depthmap}
 A.~Turner, ``Depthmap: a program to perform visibility graph analysis,'' in {\em Proceedings of the 3rd international symposium on space syntax}, vol.~31, pp.~31--12, Citeseer, 2001.
+
+\bibitem{turner2001isovists}
+A.~Turner, M.~Doxa, D.~O'Sullivan, and A.~Penn, ``From isovists to visibility graphs: a methodology for the analysis of architectural space,'' {\em Environment and Planning B: Planning and Design}, vol.~28, no.~1, pp.~103--121, 2001.
 
 \bibitem{liu2024image}
 Y.~Liu, X.~Bai, J.~Wang, G.~Li, J.~Li, and Z.~Lv, ``Image semantic segmentation approach based on deeplabv3 plus network with an attention mechanism,'' {\em Engineering Applications of Artificial Intelligence}, vol.~127, p.~107260, 2024.
@@ -12,7 +18,11 @@ Y.~Liu, X.~Bai, J.~Wang, G.~Li, J.~Li, and Z.~Lv, ``Image semantic segmentation 
 \bibitem{cheng2022masked}
 B.~Cheng, I.~Misra, A.~G. Schwing, A.~Kirillov, and R.~Girdhar, ``Masked-attention mask transformer for universal image segmentation,'' in {\em Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pp.~1290--1299, 2022.
 
+\bibitem{zhou2017scene}
+B.~Zhou, H.~Zhao, X.~Puig, S.~Fidler, A.~Barriuso, and A.~Torralba, ``Scene parsing through ade20k dataset,'' 2017.
+
 \bibitem{oki2023rental}
-沖拓弥, 下村隼生, and 山崎俊彦, ``賃貸物件ビッグデータとアンケートに基づく子育て世帯の住宅選好分析 その1：アンケートと住宅選好予測モデルの概要,'' in {\em 日本建築学会大会学術講演梗概集}, 情報システム技術, pp.~29--30, 日本建築学会, September 2023.
+T.~Oki, H.~Shimomura, and T.~Yamasaki, ``Predicting housing preference of households raising children using rental property big data and questionnaire, part 1: Overview of questionnaire and housing preference prediction model,'' in {\em Proceedings of the Architectural Institute of Japan Annual Conference}, Information Systems Technology, pp.~29--30, Architectural Institute of Japan, September 2023.
+\newblock Research in Asia (CAADRIA) 2023, 1, 325-334, 2023.
 
 \end{thebibliography}
