@@ -1,7 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{hillier1987ideas}
-B.~Hillier, J.~Hanson, and H.~Graham, ``Ideas are in things: an application of the space syntax method to discovering house genotypes,'' {\em Environment and Planning B: planning and design}, vol.~14, no.~4, pp.~363--385, 1987.
+B.~Hillier, J.~Hanson, and H.~Graham, ``Ideas are in things: An application of the space syntax method to discovering house genotypes,'' {\em Environment and Planning B: Planning and design}, vol.~14, no.~4, pp.~363--385, 1987.
+
+\bibitem{almohannadi2020cultural}
+A.~S. Al-Mohannadi, R.~Furlan, and M.~D. Major, ``A cultural heritage framework for preserving {Q}atari vernacular domestic architecture,'' {\em Sustainability}, vol.~12, no.~18, p.~7295, 2020.
+
+\bibitem{kim2009angular}
+H.-J. Kim and Y.-O. Choi, ``Angular {VGA} and cellular {VGA}: An exploratory study for spatial analysis methodology based on human movement behavior,'' p.~054, 2009.
+
+\bibitem{jin2024spatial}
+A.~Jin, Y.~Ge, and S.~Zhang, ``Spatial characteristics of multidimensional urban vitality and its impact mechanisms by the built environment,'' {\em Land}, vol.~13, no.~7, p.~991, 2024.
 
 \bibitem{yamada2021graph}
 M.~Yamada, X.~Wang, and T.~Yamasaki, ``Graph structure extraction from floor plan images and its application to similar property recommendation,'' in {\em 2021 IEEE International Conference on Consumer Electronics (ICCE)}, (Las Vegas, NV, USA), pp.~1--2, IEEE, 2021.

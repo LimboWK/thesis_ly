@@ -12,7 +12,7 @@ Our dataset comprises 4004 rental properties from Tokyo's 23 wards (1960-present
 and completeness. The LIFULL dataset represents one of Japan's largest real estate databases, providing comprehensive 
 information about rental properties including interior images, floor plan data, and property specifications.
 
-\subsection{Dataset Characteristics}
+\section{Dataset Characteristics}
 
 The dataset encompasses multiple categories of spatial openness attributes through interior images, floor plan data, 
 and property specifications. Key characteristics include:
@@ -67,38 +67,6 @@ The dataset provides multi-modal information for each property:
 }
 \end{table}
 
-\section{Definition of Openness}
-
-Spatial openness is typically expressed through the sense of visual connectivity. 
-In residential rental markets, the 3D visual elements displayed in property photographs serve as 
-the primary carriers of spatial impression and openness perception for potential tenants. 
-The concept of openness in residential spaces encompasses several dimensions, 
-with particular emphasis on the following:
-
-\begin{itemize}
-    \item \textbf{Visual Connectivity}: The degree to which different areas of a space are visually 
-    connected as perceived through interior photographs, which numerically quantified by the VGA analysis.
-    
-    \item \textbf{Architectural Elements}: The appearance of windows, ceilings, floors, and walls in photos of the living rooms in the LIFULL dataset.
-    
-\end{itemize}
-
-In the context of rental property advertising, these visual elements become the primary means through which spatial qualities are communicated to potential tenants, making their accurate quantification essential for understanding market dynamics.
-
-
-\section{Data Filtering and Cleaning}
-
-In order to effectively extract the required openness features, the data filtering and cleaning pipeline ensures data quality and consistency across the dataset. 
-Multiple stages of filtering and validation are applied to maintain analytical reliability. The following sections 
-detail the filtering process for interior images, floor plans, and property specifications, which are also illustrated as shown in Figure \ref{fig:data_filtering}.
-The details of the methodolgies of how to extract the openness features are demonstrated later after stating the filtering process. 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.9\textwidth]{chapters/plots/data_filtering.png}
-    \caption{Data filtering and preprocessing pipeline showing the systematic approach to ensuring data quality and consistency across interior images, floor plans, and property specifications. The flowchart illustrates the multi-stage filtering process from raw data collection to the final integrated dataset.}
-    \label{fig:data_filtering}
-\end{figure}
-
 \subsection{Multi-Stage Data Filtering Process}
 
 Starting from a raw dataset of over 5 million properties, a systematic multi-stage filtering process is applied to ensure data quality and analytical reliability. The filtering pipeline reduces the dataset to approximately 4,000 final samples suitable for comprehensive openness analysis.
@@ -135,10 +103,43 @@ The final filtering stage ensures analytical validity:
 \end{itemize}
 
 This systematic filtering process ensures that the final dataset of approximately 4,000 properties maintains high data quality standards while providing sufficient sample size for robust statistical analysis.
-The following sections detail the extraction process of the openness features that have been already mentioned
-in the data filtering and cleaning workflow. 
+The entire filtering process is demonstrated in Figure \ref{fig:data_filtering}.
 
-\section{Openness Features Extractions}
+\section{Sptail Openness Indicators}
+
+Spatial openness is typically expressed through the sense of visual connectivity. 
+In residential rental markets, the 3D visual elements displayed in property photographs serve as 
+the primary carriers of spatial impression and openness perception for potential tenants. 
+The concept of openness in residential spaces encompasses several dimensions, 
+with particular emphasis on the following:
+
+\begin{itemize}
+    \item \textbf{Visual Connectivity}: The degree to which different areas of a space are visually 
+    connected as perceived through interior photographs, which numerically quantified by the VGA analysis.
+    
+    \item \textbf{Architectural Elements}: The appearance of windows, ceilings, floors, and walls in photos of the living rooms in the LIFULL dataset.
+    
+\end{itemize}
+
+In the context of rental property advertising, these visual elements become the primary means through which spatial qualities are communicated to potential tenants, making their accurate quantification essential for understanding market dynamics.
+
+
+%\section{Data Filtering and Cleaning}
+
+In order to effectively extract the required openness features, the data filtering and cleaning pipeline ensures data quality and consistency across the dataset. 
+Multiple stages of filtering and validation are applied to maintain analytical reliability. The following sections 
+detail the filtering process for interior images, floor plans, and property specifications, which are also illustrated as shown in Figure \ref{fig:data_filtering}.
+The details of the methodolgies of how to extract the openness features are demonstrated later after stating the filtering process. 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\textwidth]{chapters/plots/data_filtering.png}
+    \caption{Data filtering and preprocessing pipeline showing the systematic approach to ensuring data quality and consistency across interior images, floor plans, and property specifications. The flowchart illustrates the multi-stage filtering process from raw data collection to the final integrated dataset.}
+    \label{fig:data_filtering}
+\end{figure}
+
+
+
+\section{2D Openness Indicators}
 
 \subsection{Visibility Graph Analysis (VGA) Methodology}
 
@@ -211,9 +212,9 @@ This workflow is demonstrated in Figure \ref{fig:vga_workflow}.
 
 
 
-\subsection{Architectural Element Ratios}
+\subsection{3D Openness Indicators}
 
-Beyond VGA analysis, spatial openness is quantified through the analysis of key architectural elements extracted from 
+Beyond VGA analysis, 3D spatial openness is quantified through the analysis of key architectural elements extracted from 
 interior images. In our studies, such ratios are calculated from the semantic segmentation results of living room images.
 
 \begin{itemize}

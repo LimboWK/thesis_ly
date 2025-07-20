@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-You've used 8 entries,
+Warning--empty journal in kim2009angular
+You've used 11 entries,
             1876 wiz_defined-function locations,
-            537 strings with 5567 characters,
-and the built_in function-call counts, 2613 in all, are:
-= -- 256
-> -- 108
+            561 strings with 6234 characters,
+and the built_in function-call counts, 3349 in all, are:
+= -- 328
+> -- 138
 < -- 0
-+ -- 39
-- -- 31
-* -- 189
-:= -- 360
-add.period$ -- 9
-call.type$ -- 8
-change.case$ -- 8
++ -- 50
+- -- 39
+* -- 236
+:= -- 465
+add.period$ -- 12
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 136
-empty$ -- 242
-format.name$ -- 31
-if$ -- 638
+cite$ -- 12
+duplicate$ -- 183
+empty$ -- 306
+format.name$ -- 39
+if$ -- 825
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 7
-newline$ -- 28
-num.names$ -- 8
-pop$ -- 32
+int.to.str$ -- 11
+missing$ -- 10
+newline$ -- 37
+num.names$ -- 11
+pop$ -- 42
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 104
+skip$ -- 137
 stack$ -- 0
-substring$ -- 180
-swap$ -- 61
+substring$ -- 200
+swap$ -- 83
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 27
-width$ -- 9
-write$ -- 85
+warning$ -- 1
+while$ -- 33
+width$ -- 13
+write$ -- 115
+(There was 1 warning)
