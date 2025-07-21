@@ -6,11 +6,14 @@ and walls ratio from interior images, together with tabular based attributes of 
 VGAs relies on the floorplan data.
 These features are used in subsequent temporal, spatial, and correlation analyses.
 
-\section{Overview of the LIFULL Real Estate Dataset}
+\section{Overview of Openness }
 
-Our dataset comprises 4004 rental properties from Tokyo's 23 wards (1960-present), filtered for image availability 
-and completeness. The LIFULL dataset represents one of Japan's largest real estate databases, providing comprehensive 
-information about rental properties including interior images, floor plan data, and property specifications.
+We consider two types of spatial openness indicators: two-dimensional (2D) openness indicators based 
+on the floor plan analysis extracted from floor plans, and three-dimensional (3D) openness indicators based 
+on the elevational openness extracted from interior images. Each indicator was calculated using computer 
+vision technology from images included in the rental housing big data (LIFULL HOME's dataset). Other 
+information such as construction year, location, and property area is included in the attribute table of the 
+rental properties.
 
 \section{Dataset Characteristics}
 
@@ -163,9 +166,13 @@ and spatial, calibration, showing a bottleneck that limits its applicability to 
 
 \subsubsection{Mathematical Definition of VGA}
 
-Corresponding to the step 4 in the above section, the VGA value quantifies the degree of spatial integration and visual connectivity within a given floor plan layout. For a discretized spatial grid with $N$ points, the visibility graph analysis computes connectivity measures based on line-of-sight relationships between grid points.
+Corresponding to step 4 in the VGA computational workflow described above, 
+the visibility value quantifies the degree of spatial integration and visual 
+connectivity within a given floor plan layout. For a discretized spatial grid 
+with $N$ points distributed across the open space areas, the visibility graph analysis computes connectivity measures based 
+on line-of-sight relationships between grid points.
 
-Mathematically, the VGA value at each point is defined as:
+Mathematically, the visibility value at each point is defined as:
 \begin{equation}
 \label{eq:vga_definition}
 S(i) = \sum_{j=1}^{N} V_{ij}
@@ -181,13 +188,12 @@ where:
     0 & \text{otherwise}
     \end{cases}
     \end{equation}
-    \item $N$ is the total number of grid points in the open space
+    \item $N$ is the total number of grid points in the open space areas
 \end{itemize}
 
-The visibility determination between two points follows the isovist principle \cite{turner2001isovists}, where point $j$ is considered visible from point $i$ if the straight line connecting them does not intersect any wall boundaries in the floor plan.
+The visibility determination between two points follows the isovist principle \cite{turner2001isovists}, where point $j$ is considered visible from point $i$ if the straight line connecting them does not intersect any wall boundaries identified through the semantic segmentation process.
 
-This computation generates a VGA heatmap $\mathbf{S} = \{S(1), S(2), \ldots, S(N)\}$ representing spatial connectivity throughout the floor plan. From this heatmap, summary statistics including mean ($\mu_S$), standard deviation ($\sigma_S$), and percentiles are extracted as quantitative features characterizing spatial openness.
-
+This computation generates a VGA heatmap $\mathbf{S} = \{S(1), S(2), \ldots, S(N)\}$ representing spatial connectivity throughout the floor plan. From this heatmap, summary statistics including mean ($\mu_S$), standard deviation ($\sigma_S$), and percentiles are extracted as quantitative features characterizing spatial openness for subsequent analysis.
 
 
 \subsubsection{VGA Computation Process}

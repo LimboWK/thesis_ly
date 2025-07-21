@@ -166,10 +166,10 @@ of the openness of the properties.
 \subsection{Temporal Analysis of Spatial Openness}
 From the tabular features of the properties, we have various information, with the most interesting 
 being building age and geographic factors. 
-We examined the distribution of VGA mean values across construction dates in decades, as shown in 
+We examined the distribution of mean visibility values across construction dates in decades, as shown in 
 Figure \ref{fig:temporal_analysis}.
 
-The analysis shows VGA mean values contain large outliers but remain stable across decades, likely due to large-area properties. 
+The analysis shows mean visibility values contain large outliers but remain stable across decades, likely due to large-area properties. 
 The impression scores show more balanced distributions, as they are evaluated from interior images that are less dependent of overall property layouts.
 \begin{center}
     \includegraphics[width=0.95\columnwidth]{plots/vga_process.png}
@@ -179,15 +179,15 @@ The impression scores show more balanced distributions, as they are evaluated fr
 
 \begin{center}
     \includegraphics[width=0.9\columnwidth]{plots/vga_10years_box.png}
-    \captionof{figure}{Distribution of VGA mean values across construction dates by decade}
+    \captionof{figure}{Distribution of mean visibility values across construction dates by decade}
     \label{fig:temporal_analysis}
 \end{center}
 \subsection{Geographic Distribution Analysis}
 
-We conducted a comprehensive analysis of the geographic distribution of VGA mean values and impression scores at the chome-level granularity using post-code alignment across Tokyo's 23 special wards, as shown in Figure \ref{fig:geo_analysis}. This fine-grained spatial analysis allows us to examine potential neighborhood-level variations in spatial openness characteristics. However, despite this detailed geographic examination, no clear clustering patterns or significant imbalances are found in the distributions across the different areas for either attribute, suggesting that spatial openness characteristics are relatively uniformly distributed across Tokyo's urban landscape.
+We conducted a comprehensive analysis of the geographic distribution of mean visibility values and impression scores at the chome-level granularity using post-code alignment across Tokyo's 23 special wards, as shown in Figure \ref{fig:geo_analysis}. This fine-grained spatial analysis allows us to examine potential neighborhood-level variations in spatial openness characteristics. However, despite this detailed geographic examination, no clear clustering patterns or significant imbalances are found in the distributions across the different areas for either attribute, suggesting that spatial openness characteristics are relatively uniformly distributed across Tokyo's urban landscape.
 
 \subsection{Correlation Analysis Between Openness Attributes}
-We conducted a detailed correlation analysis examining the relationships between VGA statistics, impression scores, and interior element fractions to understand how different measures of spatial openness relate to each other.
+We conducted a detailed correlation analysis examining the relationships between visibility statistics, impression scores, and interior element fractions to understand how different measures of spatial openness relate to each other.
 Figure \ref{fig:corr_vga_q3} reveals only mild correlations between VGA metrics derived from floorplan analysis and impression scores obtained from interior imagery assessment, suggesting fundamental gaps between objective floorplan-based spatial analysis and subjective imagery-based perceptual assessment of spatial openness.
 \vspace{1em}
 
@@ -202,7 +202,7 @@ as demonstrated in Figure \ref{fig:inter_q3_cluster} and quantified in Table \re
     \includegraphics[width=0.8\columnwidth]{plots/tokyo23_q3_geo.jpg}
     \\[0.5em]
     \includegraphics[width=0.8\columnwidth]{plots/tokyo23_vga_geo.png}
-    \captionof{figure}{Geographic distribution analysis across Tokyo's 23 special wards: impression scores (top) and VGA mean values (bottom).}
+    \captionof{figure}{Geographic distribution analysis across Tokyo's 23 special wards: impression scores (top) and mean visibility values (bottom).}
     \label{fig:geo_analysis}
 \end{center}
 
@@ -272,7 +272,7 @@ Residual analysis reveals weak bias in the fit showing that the model is not ove
 
 \subsection{Principal Component Analysis}
 To better understand the relationships between spatial features, we performed Principal Component Analysis (PCA) 
-using VGA mean values, ceiling, wall, floor, and window visual fractions as input features. The analysis reveals 
+using mean visibility values, ceiling, wall, floor, and window visual fractions as input features. The analysis reveals 
 the underlying structure of spatial characteristics in our dataset. The PCA plots are shown as Figure \ref{fig:pca_dist}.
 \begin{center}
     \begin{minipage}{0.45\columnwidth}
@@ -426,14 +426,14 @@ ceiling & 8.30 & 5.23 & 15.86 & 0.00 & Y \\
 \hline
 \textbf{Abbr.} & \textbf{Description} \\
 \hline
-min\_all & Min VGA (whole property) \\
-max\_all & Max VGA (whole property) \\
-mean\_all & Mean VGA (whole property) \\
-std\_all & Std VGA (whole property) \\
-min\_lv & Min VGA (living room) \\
-max\_lv & Max VGA (living room) \\
-std\_lv & Std VGA (living room) \\
-median\_lv & Median VGA (living room) \\
+min\_all & Minimum visibility value (whole property) \\
+max\_all & Maximum visibility value (whole property) \\
+mean\_all & Mean visibility value (whole property) \\
+std\_all & Standard deviation of visibility values (whole property) \\
+min\_lv & Minimum visibility value (living room) \\
+max\_lv & Maximum visibility value (living room) \\
+std\_lv & Standard deviation of visibility values (living room) \\
+median\_lv & Median visibility value (living room) \\
 window & Window fraction \\
 floor & Floor fraction \\
 ceiling & Ceiling fraction \\
