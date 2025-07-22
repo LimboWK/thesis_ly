@@ -6,43 +6,43 @@ Database file #1: references.bib
 Warning--empty journal in kim2009angular
 You've used 11 entries,
             1876 wiz_defined-function locations,
-            561 strings with 6234 characters,
-and the built_in function-call counts, 3349 in all, are:
-= -- 328
-> -- 138
+            558 strings with 6189 characters,
+and the built_in function-call counts, 3187 in all, are:
+= -- 307
+> -- 135
 < -- 0
-+ -- 50
-- -- 39
-* -- 236
-:= -- 465
++ -- 49
+- -- 38
+* -- 227
+:= -- 447
 add.period$ -- 12
 call.type$ -- 11
 change.case$ -- 11
 chr.to.int$ -- 0
 cite$ -- 12
-duplicate$ -- 183
-empty$ -- 306
-format.name$ -- 39
-if$ -- 825
+duplicate$ -- 166
+empty$ -- 300
+format.name$ -- 38
+if$ -- 781
 int.to.chr$ -- 0
 int.to.str$ -- 11
-missing$ -- 10
+missing$ -- 9
 newline$ -- 37
 num.names$ -- 11
-pop$ -- 42
+pop$ -- 46
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 137
+skip$ -- 122
 stack$ -- 0
-substring$ -- 200
-swap$ -- 83
+substring$ -- 188
+swap$ -- 70
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 33
+while$ -- 32
 width$ -- 13
-write$ -- 115
+write$ -- 112
 (There was 1 warning)

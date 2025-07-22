@@ -210,7 +210,7 @@ This computation generates a VGA heatmap $\mathbf{S} = \{S(1), S(2), \ldots, S(N
 To address traditional VGA limitations, we developed a computational workflow using optical floor plan images directly:
 
 \begin{enumerate}
-    \item \textbf{Semantic Segmentation}: DeepLab-V3+ model \cite{liu2024image} fine-tuned to classify walls, bedrooms, and living rooms
+    \item \textbf{Semantic Segmentation}: DeepLab-V3+ model \cite{chen2018encoderdecoderatrousseparableconvolution} fine-tuned to classify walls, bedrooms, and living rooms
     \item \textbf{Boundary Mask Creation}: Generate masks distinguishing walls from open spaces
     \item \textbf{Physical Grid Generation}: Create uniform grid overlay on open space areas
     \item \textbf{Isovist-based Visibility Calculation}: Calculate visibility for each grid point using the isovist method

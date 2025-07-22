@@ -21,8 +21,8 @@ A.~Turner, ``Depthmap: a program to perform visibility graph analysis,'' in {\em
 \bibitem{turner2001isovists}
 A.~Turner, M.~Doxa, D.~O'Sullivan, and A.~Penn, ``From isovists to visibility graphs: a methodology for the analysis of architectural space,'' {\em Environment and Planning B: Planning and Design}, vol.~28, no.~1, pp.~103--121, 2001.
 
-\bibitem{liu2024image}
-Y.~Liu, X.~Bai, J.~Wang, G.~Li, J.~Li, and Z.~Lv, ``Image semantic segmentation approach based on deeplabv3 plus network with an attention mechanism,'' {\em Engineering Applications of Artificial Intelligence}, vol.~127, p.~107260, 2024.
+\bibitem{chen2018encoderdecoderatrousseparableconvolution}
+L.-C. Chen, Y.~Zhu, G.~Papandreou, F.~Schroff, and H.~Adam, ``Encoder-decoder with atrous separable convolution for semantic image segmentation,'' 2018.
 
 \bibitem{cheng2022masked}
 B.~Cheng, I.~Misra, A.~G. Schwing, A.~Kirillov, and R.~Girdhar, ``Masked-attention mask transformer for universal image segmentation,'' in {\em Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}, pp.~1290--1299, 2022.
