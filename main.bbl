@@ -31,7 +31,6 @@ B.~Cheng, I.~Misra, A.~G. Schwing, A.~Kirillov, and R.~Girdhar, ``Masked-attenti
 B.~Zhou, H.~Zhao, X.~Puig, S.~Fidler, A.~Barriuso, and A.~Torralba, ``Scene parsing through ade20k dataset,'' 2017.
 
 \bibitem{oki2023rental}
-T.~Oki and T.~Shimomura, ``Predicting housing preference of households raising children using rental property big data and questionnaire,'' CAADRIA, 2025.
-\newblock ID 817.
+T.~Oki and T.~Shimomura, ``Predicting housing preference of households raising children using rental property big data and questionnaire,'' in {\em Proceedings of the 30th International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA) 2025}, vol.~1, pp.~325--334, 2025.
 
 \end{thebibliography}
