@@ -4,45 +4,46 @@ The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--empty journal in kim2009angular
+Warning--empty booktitle in oki2023rental
 You've used 11 entries,
             1876 wiz_defined-function locations,
-            558 strings with 6189 characters,
-and the built_in function-call counts, 3187 in all, are:
-= -- 307
-> -- 135
+            554 strings with 5925 characters,
+and the built_in function-call counts, 3024 in all, are:
+= -- 286
+> -- 132
 < -- 0
-+ -- 49
-- -- 38
-* -- 227
-:= -- 447
++ -- 48
+- -- 37
+* -- 212
+:= -- 429
 add.period$ -- 12
 call.type$ -- 11
 change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 166
-empty$ -- 300
-format.name$ -- 38
-if$ -- 781
+cite$ -- 13
+duplicate$ -- 159
+empty$ -- 288
+format.name$ -- 37
+if$ -- 739
 int.to.chr$ -- 0
 int.to.str$ -- 11
 missing$ -- 9
 newline$ -- 37
 num.names$ -- 11
-pop$ -- 46
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 122
+skip$ -- 111
 stack$ -- 0
-substring$ -- 188
-swap$ -- 70
+substring$ -- 164
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 32
+warning$ -- 2
+while$ -- 29
 width$ -- 13
-write$ -- 112
-(There was 1 warning)
+write$ -- 109
+(There were 2 warnings)
