@@ -9,58 +9,58 @@
 \contentsline {section}{\numberline {1.4}Structure of the Thesis}{6}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Methodology}{8}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Overview of Openness }{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Dataset Characteristics}{10}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Data Structure and Availability}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Multi-Stage Data Filtering Process}{11}{subsection.2.2.2}%
-\contentsline {subsubsection}{Initial Data Selection}{11}{section*.9}%
-\contentsline {subsubsection}{Property Specification Requirements}{12}{section*.10}%
-\contentsline {subsubsection}{Quality Validation and Final Selection}{12}{section*.11}%
-\contentsline {section}{\numberline {2.3}Sptail Openness Indicators}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}2D Openness Indicators}{15}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Visibility Graph Analysis (VGA) Methodology}{15}{subsection.2.4.1}%
-\contentsline {subsubsection}{Mathematical Definition of VGA}{15}{section*.13}%
-\contentsline {subsubsection}{VGA Computation Process}{16}{section*.14}%
-\contentsline {subsection}{\numberline {2.4.2}3D Openness Indicators}{19}{subsection.2.4.2}%
-\contentsline {subsubsection}{Segmentation Model}{19}{section*.16}%
-\contentsline {subsubsection}{Pixel-wise Classification}{20}{section*.17}%
-\contentsline {subsubsection}{Ratio Calculation}{21}{section*.19}%
-\contentsline {chapter}{\numberline {3}Results}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Temporal Trend of Openness Indicators}{22}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Pairwise Analysis of Temporal Changes for Each Indicator}{24}{subsection.3.1.1}%
-\contentsline {subsubsection}{Mean visibility value of whole property}{24}{section*.22}%
-\contentsline {subsubsection}{Mean visibility value of living room}{25}{section*.24}%
-\contentsline {subsubsection}{Standard deviation of visibility values of whole property}{26}{section*.26}%
-\contentsline {subsubsection}{Window Ratio}{27}{section*.28}%
-\contentsline {section}{\numberline {3.2}Geospatial Distribution of Openness Indicators}{28}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Correlation Analysis Among Indicators and with Rent and Others}{30}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Impact of Openness Indicators on Rental Prices}{33}{section.3.4}%
-\contentsline {subsubsection}{Fitting with Unselected Features }{33}{section*.32}%
-\contentsline {subsubsection}{Correlation and VIF Checks to Reduce Multicollinearity}{35}{section*.35}%
-\contentsline {subsubsection}{Stepwise Feature Selection for Optimal Model}{37}{section*.38}%
-\contentsline {subsubsection}{Interpretation of Feature Importance}{38}{section*.39}%
-\contentsline {section}{\numberline {3.5}Visual Validation of Openness Indicators}{38}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}2D Openness Indicators}{40}{subsection.3.5.1}%
-\contentsline {subsubsection}{Mean visibility values - Whole Property}{40}{section*.42}%
-\contentsline {subsubsection}{Standard Deviation of visibility values}{41}{section*.44}%
-\contentsline {subsection}{\numberline {3.5.2}3D Openness Indicators}{42}{subsection.3.5.2}%
-\contentsline {subsubsection}{Window Ratio}{42}{section*.46}%
-\contentsline {subsubsection}{Ceiling Visibility}{43}{section*.48}%
-\contentsline {subsubsection}{Floor Visibility}{44}{section*.50}%
-\contentsline {subsubsection}{Wall Visibility}{45}{section*.52}%
-\contentsline {subsection}{\numberline {3.5.3}Combined Indicator Analysis}{46}{subsection.3.5.3}%
-\contentsline {subsubsection}{High visibility values with Low Window Ratio}{46}{section*.54}%
-\contentsline {subsubsection}{High visibility values with High Window Ratio}{46}{section*.56}%
-\contentsline {subsubsection}{Low visibility values with High Window Ratio}{47}{section*.58}%
-\contentsline {subsubsection}{Low visibility values with Low Window Ratio}{47}{section*.60}%
-\contentsline {chapter}{\numberline {4}Conclusions}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary of Key Findings}{48}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Temporal Evolution of Spatial Design}{48}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Geographic Patterns of Openness}{49}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Independence of 2D and 3D Openness Measures}{49}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Market Valuation of Spatial Openness}{50}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Future Work}{50}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}VGA Methodology Refinement}{50}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}3D Indicator Robustness}{51}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Causal Analysis Framework}{51}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Scale and Generalizability}{52}{subsection.4.2.4}%
-\contentsline {chapter}{References}{54}{appendix*.62}%
+\contentsline {section}{\numberline {2.2}Dataset Characteristics}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Data Structure and Availability}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Multi-Stage Data Filtering Process}{10}{subsection.2.2.2}%
+\contentsline {subsubsection}{Initial Data Selection}{10}{section*.8}%
+\contentsline {subsubsection}{Property Specification Requirements}{11}{section*.9}%
+\contentsline {subsubsection}{Quality Validation and Final Selection}{11}{section*.10}%
+\contentsline {section}{\numberline {2.3}Sptail Openness Indicators}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}2D Openness Indicators}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Visibility Graph Analysis (VGA) Methodology}{14}{subsection.2.4.1}%
+\contentsline {subsubsection}{Mathematical Definition of VGA}{14}{section*.12}%
+\contentsline {subsubsection}{VGA Computation Process}{15}{section*.13}%
+\contentsline {subsection}{\numberline {2.4.2}3D Openness Indicators}{18}{subsection.2.4.2}%
+\contentsline {subsubsection}{Segmentation Model}{18}{section*.15}%
+\contentsline {subsubsection}{Pixel-wise Classification}{19}{section*.16}%
+\contentsline {subsubsection}{Ratio Calculation}{20}{section*.18}%
+\contentsline {chapter}{\numberline {3}Results}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Temporal Trend of Openness Indicators}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Pairwise Analysis of Temporal Changes for Each Indicator}{23}{subsection.3.1.1}%
+\contentsline {subsubsection}{Mean visibility value of whole property}{23}{section*.21}%
+\contentsline {subsubsection}{Mean visibility value of living room}{24}{section*.23}%
+\contentsline {subsubsection}{Standard deviation of visibility values of whole property}{25}{section*.25}%
+\contentsline {subsubsection}{Window Ratio}{26}{section*.27}%
+\contentsline {section}{\numberline {3.2}Geospatial Distribution of Openness Indicators}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Correlation Analysis Among Indicators and with Rent and Others}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Impact of Openness Indicators on Rental Prices}{32}{section.3.4}%
+\contentsline {subsubsection}{Fitting with Unselected Features }{32}{section*.31}%
+\contentsline {subsubsection}{Correlation and VIF Checks to Reduce Multicollinearity}{34}{section*.34}%
+\contentsline {subsubsection}{Stepwise Feature Selection for Optimal Model}{36}{section*.37}%
+\contentsline {subsubsection}{Interpretation of Feature Importance}{37}{section*.38}%
+\contentsline {section}{\numberline {3.5}Visual Validation of Openness Indicators}{37}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}2D Openness Indicators}{39}{subsection.3.5.1}%
+\contentsline {subsubsection}{Mean visibility values - Whole Property}{39}{section*.41}%
+\contentsline {subsubsection}{Standard Deviation of visibility values}{40}{section*.43}%
+\contentsline {subsection}{\numberline {3.5.2}3D Openness Indicators}{41}{subsection.3.5.2}%
+\contentsline {subsubsection}{Window Ratio}{41}{section*.45}%
+\contentsline {subsubsection}{Ceiling Visibility}{42}{section*.47}%
+\contentsline {subsubsection}{Floor Visibility}{43}{section*.49}%
+\contentsline {subsubsection}{Wall Visibility}{44}{section*.51}%
+\contentsline {subsection}{\numberline {3.5.3}Combined Indicator Analysis}{45}{subsection.3.5.3}%
+\contentsline {subsubsection}{High visibility values with Low Window Ratio}{45}{section*.53}%
+\contentsline {subsubsection}{High visibility values with High Window Ratio}{45}{section*.55}%
+\contentsline {subsubsection}{Low visibility values with High Window Ratio}{46}{section*.57}%
+\contentsline {subsubsection}{Low visibility values with Low Window Ratio}{46}{section*.59}%
+\contentsline {chapter}{\numberline {4}Conclusions}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary of Key Findings}{47}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Temporal Evolution of Spatial Design}{47}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Geographic Patterns of Openness}{48}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Independence of 2D and 3D Openness Measures}{48}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Market Valuation of Spatial Openness}{49}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Future Work}{49}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}VGA Methodology Refinement}{49}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}3D Indicator Robustness}{50}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Causal Analysis Framework}{50}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Scale and Generalizability}{51}{subsection.4.2.4}%
+\contentsline {chapter}{References}{53}{appendix*.61}%
