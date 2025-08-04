@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  23 JUL 2025 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.19)  4 AUG 2025 10:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,72 +939,66 @@ Package pdftex.def Info: chapters/plots/oneway.png  used on input line 19.
 <chapters/plots/gis.png, id=428, 239.6955pt x 311.9655pt>
 File: chapters/plots/gis.png Graphic file (type png)
 <use chapters/plots/gis.png>
-Package pdftex.def Info: chapters/plots/gis.png  used on input line 219.
+Package pdftex.def Info: chapters/plots/gis.png  used on input line 218.
 (pdftex.def)             Requested size: 444.892pt x 579.0455pt.
 
 
 [27]
 
 [28 <./chapters/plots/gis.png>]
-<chapters/plots/corr_plots.png, id=442, 239.6955pt x 382.3083pt>
-File: chapters/plots/corr_plots.png Graphic file (type png)
-<use chapters/plots/corr_plots.png>
-Package pdftex.def Info: chapters/plots/corr_plots.png  used on input line 257.
-(pdftex.def)             Requested size: 374.64853pt x 597.57108pt.
-
-
-LaTeX Warning: Float too large for page by 0.64105pt on input line 260.
-
-
-
-[29]
-
-[30 <./chapters/plots/corr_plots.png>]
-Underfull \vbox (badness 4752) has occurred while \output is active []
-
-
-
-[31]
-Overfull \hbox (3.25436pt too wide) in paragraph at lines 324--344
- [][] 
- []
-
-
-
-[32]
-<chapters/plots/12_feature_R2_red.png, id=467, 1017.8025pt x 334.24875pt>
-File: chapters/plots/12_feature_R2_red.png Graphic file (type png)
-<use chapters/plots/12_feature_R2_red.png>
-Package pdftex.def Info: chapters/plots/12_feature_R2_red.png  used on input line 357.
-(pdftex.def)             Requested size: 444.892pt x 146.10596pt.
-<chapters/plots/12_feature_corr.png, id=470, 765.86125pt x 592.2125pt>
-File: chapters/plots/12_feature_corr.png Graphic file (type png)
-<use chapters/plots/12_feature_corr.png>
-Package pdftex.def Info: chapters/plots/12_feature_corr.png  used on input line 369.
-(pdftex.def)             Requested size: 444.892pt x 344.02567pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[33 <./chapters/plots/12_feature_R2_red.png>]
-<chapters/plots/12_feature_imp.png, id=478, 488.82625pt x 560.0925pt>
+[29]
+<chapters/plots/corr_plots.png, id=446, 544.0325pt x 866.23625pt>
+File: chapters/plots/corr_plots.png Graphic file (type png)
+<use chapters/plots/corr_plots.png>
+Package pdftex.def Info: chapters/plots/corr_plots.png  used on input line 256.
+(pdftex.def)             Requested size: 374.64853pt x 596.56694pt.
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+
+
+[30]
+
+[31 <./chapters/plots/corr_plots.png>]
+
+[32]
+Overfull \hbox (3.25436pt too wide) in paragraph at lines 323--343
+ [][] 
+ []
+
+<chapters/plots/12_feature_R2_red.png, id=465, 1017.8025pt x 334.24875pt>
+File: chapters/plots/12_feature_R2_red.png Graphic file (type png)
+<use chapters/plots/12_feature_R2_red.png>
+Package pdftex.def Info: chapters/plots/12_feature_R2_red.png  used on input line 356.
+(pdftex.def)             Requested size: 444.892pt x 146.10596pt.
+<chapters/plots/12_feature_corr.png, id=468, 765.86125pt x 592.2125pt>
+File: chapters/plots/12_feature_corr.png Graphic file (type png)
+<use chapters/plots/12_feature_corr.png>
+Package pdftex.def Info: chapters/plots/12_feature_corr.png  used on input line 368.
+(pdftex.def)             Requested size: 444.892pt x 344.02567pt.
+<chapters/plots/12_feature_imp.png, id=469, 488.82625pt x 560.0925pt>
 File: chapters/plots/12_feature_imp.png Graphic file (type png)
 <use chapters/plots/12_feature_imp.png>
-Package pdftex.def Info: chapters/plots/12_feature_imp.png  used on input line 375.
+Package pdftex.def Info: chapters/plots/12_feature_imp.png  used on input line 374.
 (pdftex.def)             Requested size: 280.98817pt x 321.95667pt.
 
 
-[34 <./chapters/plots/12_feature_corr.png>]
+[33]
+
+[34 <./chapters/plots/12_feature_R2_red.png> <./chapters/plots/12_feature_corr.png>]
 
 [35 <./chapters/plots/12_feature_imp.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 408.
+(caption)                particular \caption on input line 407.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (4.0753pt too wide) in paragraph at lines 413--423
+Overfull \hbox (4.0753pt too wide) in paragraph at lines 412--422
 \OT1/cmr/m/n/12 prop-er-ties (min[]value[]raw[]all, max[]value[]raw[]all, mean[]value[]raw[]all, std[]value[]raw[]all) were
  []
 
@@ -1014,383 +1008,817 @@ Overfull \hbox (4.0753pt too wide) in paragraph at lines 413--423
 <chapters/plots/7_feature_R2_red.png, id=501, 837.1275pt x 283.0575pt>
 File: chapters/plots/7_feature_R2_red.png Graphic file (type png)
 <use chapters/plots/7_feature_R2_red.png>
-Package pdftex.def Info: chapters/plots/7_feature_R2_red.png  used on input line 438.
+Package pdftex.def Info: chapters/plots/7_feature_R2_red.png  used on input line 437.
 (pdftex.def)             Requested size: 444.892pt x 150.43007pt.
-<chapters/plots/7_feature_imp.png, id=502, 497.86pt x 565.11125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[37]
+<chapters/plots/7_feature_imp.png, id=509, 497.86pt x 565.11125pt>
 File: chapters/plots/7_feature_imp.png Graphic file (type png)
 <use chapters/plots/7_feature_imp.png>
-Package pdftex.def Info: chapters/plots/7_feature_imp.png  used on input line 445.
+Package pdftex.def Info: chapters/plots/7_feature_imp.png  used on input line 444.
 (pdftex.def)             Requested size: 280.98817pt x 318.95215pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[37 <./chapters/plots/7_feature_R2_red.png>]
 
-[38 <./chapters/plots/7_feature_imp.png>]
+
+[38 <./chapters/plots/7_feature_R2_red.png> <./chapters/plots/7_feature_imp.png>]
 <chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg, id=516, 311.1625pt x 438.63875pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg  used on input line 501.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg  used on input line 498.
 (pdftex.def)             Requested size: 103.02852pt x 145.23312pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity -
  []
 
-<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg, id=517, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg, id=517, 387.3672pt x 344.0052pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg  used on input line 502.
+(pdftex.def)             Requested size: 103.02852pt x 91.49687pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity -
+ []
+
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg, id=518, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg  used on input line 505.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg  used on input line 506.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg, id=518, 450.68375pt x 488.82625pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg, id=519, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg  used on input line 510.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg, id=520, 450.68375pt x 488.82625pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg  used on input line 509.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg  used on input line 520.
 (pdftex.def)             Requested size: 103.02852pt x 111.74144pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity -
  []
 
-<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg, id=519, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg, id=521, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg  used on input line 524.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity -
+ []
+
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg, id=522, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg  used on input line 513.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg  used on input line 528.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg, id=520, 602.25pt x 355.3275pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg, id=523, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg  used on input line 532.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \vbox (badness 7963) has occurred while \output is active []
+
+
+
+[39 <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg>]
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg, id=532, 602.25pt x 355.3275pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg  used on input line 518.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg  used on input line 542.
 (pdftex.def)             Requested size: 103.02852pt x 60.7844pt.
-<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg, id=521, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg, id=533, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg  used on input line 546.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity -
+ []
+
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg, id=534, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg  used on input line 522.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg  used on input line 550.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg, id=522, 424.58624pt x 404.51125pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg, id=535, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg  used on input line 554.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg, id=536, 424.58624pt x 404.51125pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg  used on input line 526.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg  used on input line 564.
 (pdftex.def)             Requested size: 103.02852pt x 98.15866pt.
-<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg, id=523, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg, id=537, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg  used on input line 568.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--569
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity -
+ []
+
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg, id=538, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg  used on input line 530.
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg  used on input line 572.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-
-
-[39 <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg>]
-<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg, id=532, 401.5pt x 339.2675pt>
+<chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg, id=539, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg  used on input line 576.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg, id=540, 401.5pt x 339.2675pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg  used on input line 542.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg  used on input line 588.
 (pdftex.def)             Requested size: 103.02852pt x 87.05821pt.
-<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg, id=533, 90.3375pt x 120.45pt>
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg, id=541, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg  used on input line 592.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg, id=542, 90.3375pt x 120.45pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg  used on input line 546.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg  used on input line 596.
 (pdftex.def)             Requested size: 103.02852pt x 137.37321pt.
 
-Underfull \hbox (badness 4120) in paragraph at lines 547--547
+Underfull \hbox (badness 4120) in paragraph at lines 597--597
 []|\OT1/cmr/m/n/10.95 High Std - Liv-ing
  []
 
-<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg, id=534, 501.875pt x 501.875pt>
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg, id=543, 457.4691pt x 589.7232pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg  used on input line 600.
+(pdftex.def)             Requested size: 103.02852pt x 132.80797pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[40 <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg> <./chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg>]
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg, id=551, 501.875pt x 501.875pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg  used on input line 550.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg  used on input line 610.
 (pdftex.def)             Requested size: 103.02852pt x 103.02287pt.
-<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg, id=535, 120.45pt x 68.255pt>
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg, id=552, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg  used on input line 614.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg, id=553, 120.45pt x 68.255pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg  used on input line 554.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg  used on input line 618.
 (pdftex.def)             Requested size: 103.02852pt x 58.38466pt.
 
-Underfull \hbox (badness 4120) in paragraph at lines 555--555
+Underfull \hbox (badness 4120) in paragraph at lines 619--619
 []|\OT1/cmr/m/n/10.95 High Std - Liv-ing
  []
 
-<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg, id=536, 602.25pt x 355.3275pt>
+<chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg, id=554, 873.7443pt x 508.0581pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg  used on input line 622.
+(pdftex.def)             Requested size: 103.02852pt x 59.90227pt.
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg, id=555, 602.25pt x 355.3275pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg  used on input line 559.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg  used on input line 632.
 (pdftex.def)             Requested size: 103.02852pt x 60.7844pt.
-<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg, id=537, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg, id=556, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg  used on input line 636.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg, id=557, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg  used on input line 563.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg  used on input line 640.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 6316) in paragraph at lines 564--564
+Underfull \hbox (badness 6316) in paragraph at lines 641--641
 []|\OT1/cmr/m/n/10.95 Low Std - Liv-ing
  []
 
-<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg, id=538, 254.9525pt x 401.5pt>
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg, id=558, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg  used on input line 644.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg, id=559, 254.9525pt x 401.5pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg  used on input line 567.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg  used on input line 654.
 (pdftex.def)             Requested size: 103.02852pt x 162.25127pt.
-<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg, id=539, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg, id=560, 362.7954pt x 344.0052pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg  used on input line 658.
+(pdftex.def)             Requested size: 103.02852pt x 97.6908pt.
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg, id=561, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg  used on input line 571.
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg  used on input line 662.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 6316) in paragraph at lines 572--572
+Underfull \hbox (badness 6316) in paragraph at lines 663--663
 []|\OT1/cmr/m/n/10.95 Low Std - Liv-ing
  []
 
-<chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg, id=540, 281.05pt x 281.05pt>
+<chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg, id=562, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg  used on input line 666.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+
+[41 <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg>]
+<chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg, id=571, 281.05pt x 281.05pt>
 File: chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg  used on input line 585.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg  used on input line 680.
 (pdftex.def)             Requested size: 103.02852pt x 103.02625pt.
-<chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg, id=541, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg, id=572, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg  used on input line 684.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--685
+[]|\OT1/cmr/m/n/10.95 High Win-dow -
+ []
+
+<chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg, id=573, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg  used on input line 589.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg  used on input line 688.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg, id=542, 332.24126pt x 602.25pt>
+<chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg, id=574, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg  used on input line 692.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg, id=575, 332.24126pt x 602.25pt>
 File: chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg  used on input line 593.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg  used on input line 702.
 (pdftex.def)             Requested size: 103.02852pt x 186.75989pt.
-<chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg, id=543, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg, id=576, 334.6101pt x 344.0052pt>
+File: chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg  used on input line 706.
+(pdftex.def)             Requested size: 103.02852pt x 105.92137pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--707
+[]|\OT1/cmr/m/n/10.95 High Win-dow -
+ []
+
+<chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg, id=577, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg  used on input line 597.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg  used on input line 710.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg, id=544, 426.59375pt x 378.41376pt>
+<chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg, id=578, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg  used on input line 714.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[42 <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg>]
+<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg, id=586, 426.59375pt x 378.41376pt>
 File: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg  used on input line 602.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg  used on input line 724.
 (pdftex.def)             Requested size: 103.02852pt x 91.39279pt.
-<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg, id=545, 120.45pt x 120.45pt>
+<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg, id=587, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg  used on input line 728.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/cmr/m/n/10.95 Low Win-dow -
+ []
+
+<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg, id=588, 120.45pt x 120.45pt>
 File: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg  used on input line 606.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg  used on input line 732.
 (pdftex.def)             Requested size: 103.02852pt x 103.03175pt.
-<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg, id=546, 642.4pt x 270.00874pt>
+<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg, id=589, 596.9502pt x 589.7232pt>
+File: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg  used on input line 736.
+(pdftex.def)             Requested size: 103.02852pt x 101.78134pt.
+<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg, id=590, 642.4pt x 270.00874pt>
 File: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg  used on input line 610.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg  used on input line 746.
 (pdftex.def)             Requested size: 103.02852pt x 43.30115pt.
-<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg, id=547, 90.3375pt x 120.45pt>
+<chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg, id=591, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg  used on input line 750.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--751
+[]|\OT1/cmr/m/n/10.95 Low Win-dow -
+ []
+
+<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg, id=592, 90.3375pt x 120.45pt>
 File: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg  used on input line 614.
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg  used on input line 754.
 (pdftex.def)             Requested size: 103.02852pt x 137.37321pt.
+<chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg, id=593, 457.4691pt x 589.7232pt>
+File: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg  used on input line 758.
+(pdftex.def)             Requested size: 103.02852pt x 132.80797pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[40 <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg> <./chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg>]
-<chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg, id=554, 349.305pt x 564.1075pt>
+[43 <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg>]
+<chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg, id=600, 349.305pt x 564.1075pt>
 File: chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg  used on input line 626.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg  used on input line 770.
 (pdftex.def)             Requested size: 103.02852pt x 166.38445pt.
-<chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg, id=555, 89.33376pt x 120.45pt>
+<chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg, id=601, 357.7365pt x 344.0052pt>
+File: chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg  used on input line 774.
+(pdftex.def)             Requested size: 103.02852pt x 99.07132pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]|\OT1/cmr/m/n/10.95 High Ceil-ing -
+ []
+
+<chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg, id=602, 89.33376pt x 120.45pt>
 File: chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg  used on input line 630.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg  used on input line 778.
 (pdftex.def)             Requested size: 103.02852pt x 138.92258pt.
-<chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg, id=556, 432.61626pt x 384.43625pt>
+<chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg, id=603, 453.1329pt x 589.7232pt>
+File: chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg  used on input line 782.
+(pdftex.def)             Requested size: 103.02852pt x 134.08574pt.
+
+Underfull \hbox (badness 1072) in paragraph at lines 783--783
+[]|\OT1/cmr/m/n/10.95 High Ceil-ing - Seg-
+ []
+
+<chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg, id=604, 432.61626pt x 384.43625pt>
 File: chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg  used on input line 634.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg  used on input line 792.
 (pdftex.def)             Requested size: 103.02852pt x 91.55092pt.
-<chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg, id=557, 120.45pt x 120.45pt>
+<chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg, id=605, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg  used on input line 796.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 797--797
+[]|\OT1/cmr/m/n/10.95 High Ceil-ing -
+ []
+
+<chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg, id=606, 120.45pt x 120.45pt>
 File: chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg  used on input line 638.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg  used on input line 800.
 (pdftex.def)             Requested size: 103.02852pt x 103.03175pt.
-<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg, id=558, 382.42876pt x 558.085pt>
+<chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg, id=607, 596.9502pt x 589.7232pt>
+File: chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg  used on input line 804.
+(pdftex.def)             Requested size: 103.02852pt x 101.78134pt.
+
+Underfull \hbox (badness 1072) in paragraph at lines 805--805
+[]|\OT1/cmr/m/n/10.95 High Ceil-ing - Seg-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[44 <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg>]
+<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg, id=615, 382.42876pt x 558.085pt>
 File: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg  used on input line 643.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg  used on input line 814.
 (pdftex.def)             Requested size: 103.02852pt x 150.35284pt.
-<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg, id=559, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg, id=616, 379.4175pt x 344.0052pt>
+File: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg  used on input line 818.
+(pdftex.def)             Requested size: 103.02852pt x 93.4128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--819
+[]|\OT1/cmr/m/n/10.95 Low Ceil-ing -
+ []
+
+<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg, id=617, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg  used on input line 647.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg  used on input line 822.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg, id=560, 435.6275pt x 331.2375pt>
+<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg, id=618, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg  used on input line 826.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \hbox (badness 2042) in paragraph at lines 827--827
+[]|\OT1/cmr/m/n/10.95 Low Ceil-ing - Seg-
+ []
+
+<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg, id=619, 435.6275pt x 331.2375pt>
 File: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg  used on input line 651.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg  used on input line 836.
 (pdftex.def)             Requested size: 103.02852pt x 78.33614pt.
-<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg, id=561, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg, id=620, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg  used on input line 840.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 841--841
+[]|\OT1/cmr/m/n/10.95 Low Ceil-ing -
+ []
+
+<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg, id=621, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg  used on input line 655.
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg  used on input line 844.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
+<chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg, id=622, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg  used on input line 848.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 2042) in paragraph at lines 849--849
+[]|\OT1/cmr/m/n/10.95 Low Ceil-ing - Seg-
+ []
 
-
-
-[41 <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg> <./chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg> <./chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg>]
-<chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg, id=568, 507.8975pt x 803.0pt>
+<chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg, id=623, 507.8975pt x 803.0pt>
 File: chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg  used on input line 667.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg  used on input line 860.
 (pdftex.def)             Requested size: 103.02852pt x 162.88843pt.
-<chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg, id=569, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg, id=624, 362.0727pt x 344.0052pt>
+File: chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg  used on input line 864.
+(pdftex.def)             Requested size: 103.02852pt x 97.88503pt.
+<chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg, id=625, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg  used on input line 671.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg  used on input line 868.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg, id=570, 364.36125pt x 557.08125pt>
+<chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg, id=626, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg  used on input line 872.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+
+
+[45 <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg>]
+<chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg, id=636, 364.36125pt x 557.08125pt>
 File: chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg  used on input line 675.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg  used on input line 882.
 (pdftex.def)             Requested size: 103.02852pt x 157.52025pt.
-<chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg, id=571, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg, id=637, 369.2997pt x 344.0052pt>
+File: chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg  used on input line 886.
+(pdftex.def)             Requested size: 103.02852pt x 95.9691pt.
+<chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg, id=638, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg  used on input line 679.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg  used on input line 890.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
-<chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg, id=572, 638.385pt x 392.46625pt>
+<chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg, id=639, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg  used on input line 894.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg, id=640, 638.385pt x 392.46625pt>
 File: chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg  used on input line 684.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg  used on input line 904.
 (pdftex.def)             Requested size: 103.02852pt x 63.33484pt.
-<chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg, id=573, 120.45pt x 91.34125pt>
+<chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg, id=641, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg  used on input line 908.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg, id=642, 120.45pt x 91.34125pt>
 File: chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg  used on input line 688.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg  used on input line 912.
 (pdftex.def)             Requested size: 103.02852pt x 78.13242pt.
 
-Underfull \hbox (badness 1189) in paragraph at lines 689--689
+Underfull \hbox (badness 1189) in paragraph at lines 913--913
 []|\OT1/cmr/m/n/10.95 Low Floor - Liv-ing
  []
 
-<chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg, id=574, 281.05pt x 281.05pt>
+<chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg, id=643, 767.5074pt x 588.2778pt>
+File: chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg  used on input line 916.
+(pdftex.def)             Requested size: 103.02852pt x 78.96526pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[46 <./chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg> <./chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg> <./chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg> <./chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg>]
+<chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg, id=651, 281.05pt x 281.05pt>
 File: chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg  used on input line 692.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg  used on input line 926.
 (pdftex.def)             Requested size: 103.02852pt x 103.02625pt.
-<chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg, id=575, 120.45pt x 100.375pt>
+<chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg, id=652, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg  used on input line 930.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg, id=653, 120.45pt x 100.375pt>
 File: chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg  used on input line 696.
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg  used on input line 934.
 (pdftex.def)             Requested size: 103.02852pt x 85.85979pt.
 
-Underfull \hbox (badness 1189) in paragraph at lines 697--697
+Underfull \hbox (badness 1189) in paragraph at lines 935--935
 []|\OT1/cmr/m/n/10.95 Low Floor - Liv-ing
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[42 <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg> <./chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg> <./chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg>]
-<chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg, id=582, 516.93124pt x 538.01pt>
+<chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg, id=654, 701.7417pt x 589.0005pt>
+File: chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg  used on input line 938.
+(pdftex.def)             Requested size: 103.02852pt x 86.46788pt.
+<chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg, id=655, 516.93124pt x 538.01pt>
 File: chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg  used on input line 708.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg  used on input line 950.
 (pdftex.def)             Requested size: 103.02852pt x 107.22246pt.
-<chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg, id=583, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg, id=656, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg  used on input line 954.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg, id=657, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg  used on input line 712.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg  used on input line 958.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 1478) in paragraph at lines 713--713
+Underfull \hbox (badness 1478) in paragraph at lines 959--959
 []|\OT1/cmr/m/n/10.95 High Wall - Liv-ing
  []
 
-<chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg, id=584, 501.875pt x 501.875pt>
+<chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg, id=658, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg  used on input line 962.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg, id=659, 501.875pt x 501.875pt>
 File: chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg  used on input line 716.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg  used on input line 972.
 (pdftex.def)             Requested size: 103.02852pt x 103.02287pt.
-<chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg, id=585, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg, id=660, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg  used on input line 976.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg, id=661, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg  used on input line 720.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg  used on input line 980.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 1478) in paragraph at lines 721--721
+Underfull \hbox (badness 1478) in paragraph at lines 981--981
 []|\OT1/cmr/m/n/10.95 High Wall - Liv-ing
  []
 
-<chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg, id=586, 602.25pt x 378.41376pt>
+<chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg, id=662, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg  used on input line 984.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \vbox (badness 2181) has occurred while \output is active []
+
+
+
+[47 <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg> <./chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg>]
+<chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg, id=671, 602.25pt x 378.41376pt>
 File: chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg  used on input line 725.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg  used on input line 994.
 (pdftex.def)             Requested size: 103.02852pt x 64.73367pt.
-<chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg, id=587, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg, id=672, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg  used on input line 998.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+<chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg, id=673, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg  used on input line 729.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg  used on input line 1002.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 730--730
+Underfull \hbox (badness 2653) in paragraph at lines 1003--1003
 []|\OT1/cmr/m/n/10.95 Low Wall - Liv-ing
  []
 
-<chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg, id=588, 408.52625pt x 642.4pt>
+<chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg, id=674, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg  used on input line 1006.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+<chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg, id=675, 408.52625pt x 642.4pt>
 File: chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg  used on input line 733.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg  used on input line 1016.
 (pdftex.def)             Requested size: 103.02852pt x 162.01112pt.
-<chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg, id=589, 90.3375pt x 120.45pt>
+<chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg, id=676, 362.7954pt x 344.0052pt>
+File: chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg  used on input line 1020.
+(pdftex.def)             Requested size: 103.02852pt x 97.6908pt.
+<chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg, id=677, 90.3375pt x 120.45pt>
 File: chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg  used on input line 737.
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg  used on input line 1024.
 (pdftex.def)             Requested size: 103.02852pt x 137.37321pt.
 
-Underfull \hbox (badness 2653) in paragraph at lines 738--738
+Underfull \hbox (badness 2653) in paragraph at lines 1025--1025
 []|\OT1/cmr/m/n/10.95 Low Wall - Liv-ing
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[43 <./chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg> <./chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg> <./chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg> <./chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg>]
-<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg, id=596, 279.0425pt x 502.87875pt>
+<chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg, id=678, 457.4691pt x 589.7232pt>
+File: chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg  used on input line 1028.
+(pdftex.def)             Requested size: 103.02852pt x 132.80797pt.
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg, id=679, 279.0425pt x 502.87875pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg  used on input line 751.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg  used on input line 1042.
 (pdftex.def)             Requested size: 103.02852pt x 185.67088pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 752--752
+Underfull \hbox (badness 3428) in paragraph at lines 1043--1043
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg, id=597, 120.45pt x 120.45pt>
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg, id=680, 336.0555pt x 344.0052pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg  used on input line 1046.
+(pdftex.def)             Requested size: 103.02852pt x 105.4647pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1047--1047
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg, id=681, 120.45pt x 120.45pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg  used on input line 755.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg  used on input line 1050.
 (pdftex.def)             Requested size: 103.02852pt x 103.03175pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 756--756
+Underfull \hbox (badness 3428) in paragraph at lines 1051--1051
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg, id=598, 408.52625pt x 330.23375pt>
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg, id=682, 596.9502pt x 589.7232pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg  used on input line 1054.
+(pdftex.def)             Requested size: 103.02852pt x 101.78134pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1055--1055
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
+ []
+
+
+
+[48 <./chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg> <./chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg>]
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg, id=690, 408.52625pt x 330.23375pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg  used on input line 759.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg  used on input line 1064.
 (pdftex.def)             Requested size: 103.02852pt x 83.28383pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 760--760
+Underfull \hbox (badness 3428) in paragraph at lines 1065--1065
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg, id=599, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg, id=691, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg  used on input line 1068.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1069--1069
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg, id=692, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg  used on input line 763.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg  used on input line 1072.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 764--764
+Underfull \hbox (badness 3428) in paragraph at lines 1073--1073
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg, id=693, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg  used on input line 1076.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1077--1077
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg, id=694, 596.2275pt x 626.34pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg  used on input line 1088.
+(pdftex.def)             Requested size: 103.02852pt x 108.22534pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1089--1089
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg, id=695, 443.7378pt x 344.0052pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg  used on input line 1092.
+(pdftex.def)             Requested size: 103.02852pt x 79.87015pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1093--1093
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg, id=696, 120.45pt x 92.345pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg  used on input line 1096.
+(pdftex.def)             Requested size: 103.02852pt x 78.991pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1097--1097
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg, id=697, 759.5577pt x 589.0005pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg  used on input line 1100.
+(pdftex.def)             Requested size: 103.02852pt x 79.8891pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1101--1101
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
  []
 
 
@@ -1398,148 +1826,234 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[44 <./chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg> <./chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg> <./chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg> <./chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg>]
-<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg, id=606, 596.2275pt x 626.34pt>
-File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg Graphic file (type jpg)
-<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg  used on input line 775.
-(pdftex.def)             Requested size: 103.02852pt x 108.22534pt.
-
-Underfull \hbox (badness 1484) in paragraph at lines 776--776
-[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
- []
-
-<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg, id=607, 120.45pt x 92.345pt>
-File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg Graphic file (type jpg)
-<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg  used on input line 779.
-(pdftex.def)             Requested size: 103.02852pt x 78.991pt.
-
-Underfull \hbox (badness 1484) in paragraph at lines 780--780
-[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
- []
-
-<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg, id=608, 625.33624pt x 481.8pt>
+[49 <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg>]
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg, id=705, 625.33624pt x 481.8pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg  used on input line 783.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg  used on input line 1110.
 (pdftex.def)             Requested size: 103.02852pt x 79.37593pt.
 
-Underfull \hbox (badness 1484) in paragraph at lines 784--784
+Underfull \hbox (badness 1484) in paragraph at lines 1111--1111
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
  []
 
-<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg, id=609, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg, id=706, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg  used on input line 1114.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1115--1115
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg, id=707, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg  used on input line 787.
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg  used on input line 1118.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 1484) in paragraph at lines 788--788
+Underfull \hbox (badness 1484) in paragraph at lines 1119--1119
 []|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg, id=610, 430.60875pt x 376.40625pt>
+<chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg, id=708, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg  used on input line 1122.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \hbox (badness 1484) in paragraph at lines 1123--1123
+[]|\OT1/cmr/m/n/10.95 High vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg, id=709, 430.60875pt x 376.40625pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg  used on input line 799.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg  used on input line 1134.
 (pdftex.def)             Requested size: 103.02852pt x 90.0579pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 800--800
+Underfull \hbox (badness 3428) in paragraph at lines 1135--1135
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg, id=611, 88.33pt x 120.45pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg, id=710, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg  used on input line 1138.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1139--1139
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg, id=711, 88.33pt x 120.45pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg  used on input line 803.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg  used on input line 1142.
 (pdftex.def)             Requested size: 103.02852pt x 140.49583pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 804--804
+Underfull \hbox (badness 3428) in paragraph at lines 1143--1143
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg, id=612, 351.3125pt x 351.3125pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg, id=712, 448.074pt x 589.7232pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg  used on input line 1146.
+(pdftex.def)             Requested size: 103.02852pt x 135.59749pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1147--1147
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[50 <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg>]
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg, id=720, 351.3125pt x 351.3125pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg  used on input line 807.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg  used on input line 1156.
 (pdftex.def)             Requested size: 103.02852pt x 103.03053pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 808--808
+Underfull \hbox (badness 3428) in paragraph at lines 1157--1157
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg, id=613, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg, id=721, 437.2335pt x 344.0052pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg  used on input line 1160.
+(pdftex.def)             Requested size: 103.02852pt x 81.05644pt.
+
+Underfull \hbox (badness 3428) in paragraph at lines 1161--1161
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg, id=722, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg  used on input line 811.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg  used on input line 1164.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 3428) in paragraph at lines 812--812
+Underfull \hbox (badness 3428) in paragraph at lines 1165--1165
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
  []
 
+<chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg, id=723, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg  used on input line 1168.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
 
-Underfull \vbox (badness 2680) has occurred while \output is active []
+Underfull \hbox (badness 3428) in paragraph at lines 1169--1169
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity High
+ []
 
-
-
-[45 <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg> <./chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg>]
-<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg, id=624, 551.05875pt x 1027.84pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg, id=724, 551.05875pt x 1027.84pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg  used on input line 823.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg  used on input line 1180.
 (pdftex.def)             Requested size: 103.02852pt x 192.1706pt.
 
-Underfull \hbox (badness 6592) in paragraph at lines 824--824
+Underfull \hbox (badness 6592) in paragraph at lines 1181--1181
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg, id=625, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg, id=725, 329.5512pt x 344.0052pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg  used on input line 1184.
+(pdftex.def)             Requested size: 103.02852pt x 107.54335pt.
+
+Underfull \hbox (badness 6592) in paragraph at lines 1185--1185
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg, id=726, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg  used on input line 827.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg  used on input line 1188.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 6592) in paragraph at lines 828--828
+Underfull \hbox (badness 6592) in paragraph at lines 1189--1189
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg, id=626, 270.00874pt x 602.25pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg, id=727, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg  used on input line 1192.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \hbox (badness 6592) in paragraph at lines 1193--1193
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[51 <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg>]
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg, id=736, 270.00874pt x 602.25pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg  used on input line 831.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg  used on input line 1202.
 (pdftex.def)             Requested size: 103.02852pt x 229.79471pt.
 
-Underfull \hbox (badness 6592) in paragraph at lines 832--832
+Underfull \hbox (badness 6592) in paragraph at lines 1203--1203
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
  []
 
-<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg, id=627, 120.45pt x 90.3375pt>
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg, id=737, 300.6432pt x 344.0052pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg  used on input line 1206.
+(pdftex.def)             Requested size: 103.02852pt x 117.88405pt.
+
+Underfull \hbox (badness 6592) in paragraph at lines 1207--1207
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg, id=738, 120.45pt x 90.3375pt>
 File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg Graphic file (type jpg)
 <use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg>
-Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg  used on input line 835.
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg  used on input line 1210.
 (pdftex.def)             Requested size: 103.02852pt x 77.2738pt.
 
-Underfull \hbox (badness 6592) in paragraph at lines 836--836
+Underfull \hbox (badness 6592) in paragraph at lines 1211--1211
+[]|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
+ []
+
+<chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg, id=739, 776.1798pt x 588.2778pt>
+File: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg Graphic file (type jpg)
+<use chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg>
+Package pdftex.def Info: chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg  used on input line 1214.
+(pdftex.def)             Requested size: 103.02852pt x 78.08556pt.
+
+Underfull \hbox (badness 6592) in paragraph at lines 1215--1215
 []|\OT1/cmr/m/n/10.95 Low vis-i-bil-ity Low
  []
 
 ) (./chapters/04_Conclusions.tex
 
-[46 <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg>]
+[52 <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg> <./chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg>]
 Chapter 4.
 
 
-[47
+[53
 
 ]
 
-[48]
+[54]
 
-[49]
+[55]
 
-[50]) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+[56]) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
@@ -1547,35 +2061,35 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 ) (./main.bbl
 
-[51]
+[57]
 
-[52]
+[58]
 
-[53
+[59
 
 ])
 
-[54] (./main.aux)
+[60] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C0044AF954992D41170FA76D269E7825;8340.
+(rerunfilecheck)             Checksum: 355810E244DCA229DB0DD49A2C6C5185;8345.
  ) 
 Here is how much of TeX's memory you used:
- 19626 strings out of 473190
- 362438 string characters out of 5715800
- 770321 words of memory out of 5000000
- 42358 multiletter control sequences out of 15000+600000
+ 20124 strings out of 473190
+ 422587 string characters out of 5715800
+ 771732 words of memory out of 5000000
+ 42828 multiletter control sequences out of 15000+600000
  570335 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,603b,1242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (58 pages, 7249995 bytes).
+Output written on main.pdf (64 pages, 9515264 bytes).
 PDF statistics:
- 761 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 186 named destinations out of 1000 (max. 500000)
- 703 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 1023 words of extra memory for PDF output out of 10000 (max. 10000000)
 

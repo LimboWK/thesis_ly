@@ -17,7 +17,7 @@ of the decades to understand how much they stand out compared to the others, whe
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.95\textwidth]{chapters/plots/oneway.png}
-    \caption{Temporal trends of openness indicators by construction decade showing (a) 2D openness scores for entire house, (b) 2D visibility scores for living rooms, (c) Standard deviation of 2D openness, and (d) 3D openness indicators (ceiling and window proportions). (***: 0.1\%, **: 1\%, *:5\%, ***:10\%)}
+    \caption{Temporal trends of openness indicators by construction decade showing (a) 2D openness scores for entire house, (b) 2D visibility scores for living rooms, (c) Standard deviation of 2D openness, and (d) 3D openness indicators (ceiling and window proportions). (***: 0.1\%, **: 1\%, *:5\%)}
     \label{fig:temporal_trends}
 \end{figure}
 
@@ -211,8 +211,7 @@ more practical from both comfort and energy efficiency perspectives.
 Figure \ref{fig:geospatial_distribution} shows the geospatial distribution of representative openness indicators in Tokyo's 23 wards.
 Of the 4,004 properties analyzed, 
 approximately 3,800 properties with postal code-level address information were selected for 
-geospatial analysis. Here, we discuss the results obtained using a spatial interpolation method called 
-kriging.
+geospatial analysis. This study applies ArcGIS Pro 3D Analyst's default Ordinary Kriging: first, an empirical semivariogram is fitted (estimating nugget, range, and sill) to quantify spatial autocorrelation; second, that model is used to compute optimized weights—reflecting both distance and spatial configuration—to interpolate values at unsampled locations and generate a prediction‑variance surface, without assuming any explicit spatial trend.
 
 \begin{figure}[htbp]
     \centering
@@ -433,14 +432,14 @@ certainly not impacted solely by our selected features. Therefore, our observati
 only serve as potential insights to link the relationship between price and our openness indicators, 
 not aiming to comprehensively predict the rent price under any assumption.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{chapters/plots/7_feature_R2_red.png}
     \caption{Predictive performance of with reduced features}
     \label{fig:7_feature_R2_red}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{chapters/plots/7_feature_imp.png}
     \caption{Feature importance of the 7 selected features}
@@ -492,87 +491,183 @@ actual residential spaces. This validation helps bridge the gap between computat
 human perception of spatial openness as an extra validation of the effectiveness of our methodolgies.
 
 \subsection{2D Openness Indicators}
-
 \subsubsection{Mean visibility values - Whole Property}
-
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002.jpg}
         \caption*{High visibility - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/1f_c8_24643c6e305738d8169422c2b5fa_0002_imgarray_heatmap.jpg}
+        \caption*{High visibility - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008.jpg}
         \caption*{High visibility - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/1f_c8_24643c6e305738d8169422c2b5fa_0008_living_semseg.jpg}
+        \caption*{High visibility - Segmentation 1}
+    \end{subfigure}
+    \caption{High mean visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:mean_vga_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001.jpg}
         \caption*{High visibility - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/floorplan/64_4d_371f70a372a97ca79decb31c4d34_0001_imgarray_heatmap.jpg}
+        \caption*{High visibility - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003.jpg}
         \caption*{High visibility - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/top_k/livingroom/64_4d_371f70a372a97ca79decb31c4d34_0003_living_semseg.jpg}
+        \caption*{High visibility - Segmentation 2}
+    \end{subfigure}
+    \caption{High mean visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:mean_vga_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg}
         \caption*{Low visibility - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg}
+        \caption*{Low visibility - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg}
         \caption*{Low visibility - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg}
+        \caption*{Low visibility - Segmentation 1}
+    \end{subfigure}
+    \caption{Low mean visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:mean_vga_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003.jpg}
         \caption*{Low visibility - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/floorplan/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0003_imgarray_heatmap.jpg}
+        \caption*{Low visibility - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002.jpg}
         \caption*{Low visibility - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) mean visibility values for entire property, showing both floor plans and corresponding living room images.}
-    \label{fig:mean_vga_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/mean_value_raw_all/bottom_k/livingroom/5c_20_9ed0eaaf3e33292a6a0ab1a23b97_0002_living_semseg.jpg}
+        \caption*{Low visibility - Segmentation 2}
+    \end{subfigure}
+    \caption{Low mean visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:mean_vga_low_2}
 \end{figure}
 
 \subsubsection{Standard Deviation of visibility values}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001.jpg}
         \caption*{High Std - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/15_a7_04fb7626adc9839a2593d6cd4f42_0001_imgarray_heatmap.jpg}
+        \caption*{High Std - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003.jpg}
         \caption*{High Std - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/15_a7_04fb7626adc9839a2593d6cd4f42_0003_living_semseg.jpg}
+        \caption*{High Std - Segmentation 1}
+    \end{subfigure}
+    \caption{High standard deviation property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:std_vga_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002.jpg}
         \caption*{High Std - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/floorplan/25_95_f67b75758ae45833a6b3146a5093_0002_imgarray_heatmap.jpg}
+        \caption*{High Std - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010.jpg}
         \caption*{High Std - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/top_k/livingroom/25_95_f67b75758ae45833a6b3146a5093_0010_living_semseg.jpg}
+        \caption*{High Std - Segmentation 2}
+    \end{subfigure}
+    \caption{High standard deviation property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:std_vga_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002.jpg}
         \caption*{Low Std - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0002_imgarray_heatmap.jpg}
+        \caption*{Low Std - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005.jpg}
         \caption*{Low Std - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/0e_71_8cc2f7c9bdf62ed48ec31fe11dd8_0005_living_semseg.jpg}
+        \caption*{Low Std - Segmentation 1}
+    \end{subfigure}
+    \caption{Low standard deviation property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:std_vga_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002.jpg}
         \caption*{Low Std - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/floorplan/23_cf_c3504d142c310c319927e413f9b4_0002_imgarray_heatmap.jpg}
+        \caption*{Low Std - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003.jpg}
         \caption*{Low Std - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) standard deviation of visibility values, demonstrating spatial diversity within properties with both floor plans and corresponding living room images.}
-    \label{fig:std_vga_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/std_value_raw_all/bottom_k/livingroom/23_cf_c3504d142c310c319927e413f9b4_0003_living_semseg.jpg}
+        \caption*{Low Std - Segmentation 2}
+    \end{subfigure}
+    \caption{Low standard deviation property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:std_vga_low_2}
 \end{figure}
 
 \subsection{3D Openness Indicators}
@@ -586,36 +681,85 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High Window - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/floorplan/12_fc_ab7053681e787a077c7ac79a87cc_0001_imgarray_heatmap.jpg}
+        \caption*{High Window - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004.jpg}
         \caption*{High Window - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/12_fc_ab7053681e787a077c7ac79a87cc_0004_living_semseg.jpg}
+        \caption*{High Window - Segmentation 1}
+    \end{subfigure}
+    \caption{High window ratio property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:windowpane_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002.jpg}
         \caption*{High Window - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/floorplan/21_ce_5f9cc665f397a534afb3d328ba6e_0002_imgarray_heatmap.jpg}
+        \caption*{High Window - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003.jpg}
         \caption*{High Window - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/top_k/livingroom/21_ce_5f9cc665f397a534afb3d328ba6e_0003_living_semseg.jpg}
+        \caption*{High Window - Segmentation 2}
+    \end{subfigure}
+    \caption{High window ratio property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:windowpane_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001.jpg}
         \caption*{Low Window - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/06_68_65ba9ef27b6ab9d58cfd41ec130c_0001_imgarray_heatmap.jpg}
+        \caption*{Low Window - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006.jpg}
         \caption*{Low Window - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/06_68_65ba9ef27b6ab9d58cfd41ec130c_0006_living_semseg.jpg}
+        \caption*{Low Window - Segmentation 1}
+    \end{subfigure}
+    \caption{Low window ratio property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:windowpane_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003.jpg}
         \caption*{Low Window - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/floorplan/29_7a_1f51c95a1e83d18ff7977ee84a4f_0003_imgarray_heatmap.jpg}
+        \caption*{Low Window - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002.jpg}
         \caption*{Low Window - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) window ratios, showing the impact of glazing on interior brightness and openness perception with both floor plans and corresponding living room images.}
-    \label{fig:windowpane_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/windowpane/bottom_k/livingroom/29_7a_1f51c95a1e83d18ff7977ee84a4f_0002_living_semseg.jpg}
+        \caption*{Low Window - Segmentation 2}
+    \end{subfigure}
+    \caption{Low window ratio property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:windowpane_low_2}
 \end{figure}
 
 \subsubsection{Ceiling Visibility}
@@ -627,36 +771,85 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High Ceiling - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/floorplan/06_51_0b8ef8c9d9446fd1239774622f9f_0002_imgarray_heatmap.jpg}
+        \caption*{High Ceiling - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003.jpg}
         \caption*{High Ceiling - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/06_51_0b8ef8c9d9446fd1239774622f9f_0003_living_semseg.jpg}
+        \caption*{High Ceiling - Segmentation 1}
+    \end{subfigure}
+    \caption{High ceiling visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:ceiling_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001.jpg}
         \caption*{High Ceiling - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/floorplan/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0001_imgarray_heatmap.jpg}
+        \caption*{High Ceiling - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006.jpg}
         \caption*{High Ceiling - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/top_k/livingroom/42_b5_ed74c84785b3e9a33bf6a54ee3c1_0006_living_semseg.jpg}
+        \caption*{High Ceiling - Segmentation 2}
+    \end{subfigure}
+    \caption{High ceiling visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:ceiling_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002.jpg}
         \caption*{Low Ceiling - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/07_fc_1e6d0c336d417e2af325358cfa1e_0002_imgarray_heatmap.jpg}
+        \caption*{Low Ceiling - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005.jpg}
         \caption*{Low Ceiling - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/07_fc_1e6d0c336d417e2af325358cfa1e_0005_living_semseg.jpg}
+        \caption*{Low Ceiling - Segmentation 1}
+    \end{subfigure}
+    \caption{Low ceiling visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:ceiling_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002.jpg}
         \caption*{Low Ceiling - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/floorplan/0f_c8_7478b324cc7c44b35a3b9e1dd340_0002_imgarray_heatmap.jpg}
+        \caption*{Low Ceiling - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005.jpg}
         \caption*{Low Ceiling - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) ceiling visibility ratios, illustrating the impact of vertical space design with both floor plans and corresponding living room images.}
-    \label{fig:ceiling_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/ceiling/bottom_k/livingroom/0f_c8_7478b324cc7c44b35a3b9e1dd340_0005_living_semseg.jpg}
+        \caption*{Low Ceiling - Segmentation 2}
+    \end{subfigure}
+    \caption{Low ceiling visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:ceiling_low_2}
 \end{figure}
 
 \subsubsection{Floor Visibility}
@@ -668,36 +861,85 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High Floor - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/floorplan/10_d3_a124059139452f4258761327706c_0001_imgarray_heatmap.jpg}
+        \caption*{High Floor - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006.jpg}
         \caption*{High Floor - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/10_d3_a124059139452f4258761327706c_0006_living_semseg.jpg}
+        \caption*{High Floor - Segmentation 1}
+    \end{subfigure}
+    \caption{High floor visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:floor_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002.jpg}
         \caption*{High Floor - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/floorplan/13_4b_f382d831061446a50e8ccdc147ac_0002_imgarray_heatmap.jpg}
+        \caption*{High Floor - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003.jpg}
         \caption*{High Floor - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/top_k/livingroom/13_4b_f382d831061446a50e8ccdc147ac_0003_living_semseg.jpg}
+        \caption*{High Floor - Segmentation 2}
+    \end{subfigure}
+    \caption{High floor visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:floor_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002.jpg}
         \caption*{Low Floor - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/07_eb_abc39f577becdc073052e0ee4590_0002_imgarray_heatmap.jpg}
+        \caption*{Low Floor - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003.jpg}
         \caption*{Low Floor - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/07_eb_abc39f577becdc073052e0ee4590_0003_living_semseg.jpg}
+        \caption*{Low Floor - Segmentation 1}
+    \end{subfigure}
+    \caption{Low floor visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:floor_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001.jpg}
         \caption*{Low Floor - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/floorplan/cf_d7_25599f305dda3c420563eec70042_0001_imgarray_heatmap.jpg}
+        \caption*{Low Floor - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003.jpg}
         \caption*{Low Floor - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) floor visibility ratios, showing the impact of floor area visibility on spatial perception with both floor plans and corresponding living room images.}
-    \label{fig:floor_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/floor/bottom_k/livingroom/cf_d7_25599f305dda3c420563eec70042_0003_living_semseg.jpg}
+        \caption*{Low Floor - Segmentation 2}
+    \end{subfigure}
+    \caption{Low floor visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:floor_low_2}
 \end{figure}
 
 \subsubsection{Wall Visibility}
@@ -709,36 +951,85 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High Wall - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/floorplan/dd_cd_5ede679e5528561ed24c8b000140_0002_imgarray_heatmap.jpg}
+        \caption*{High Wall - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005.jpg}
         \caption*{High Wall - Living Room 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/dd_cd_5ede679e5528561ed24c8b000140_0005_living_semseg.jpg}
+        \caption*{High Wall - Segmentation 1}
+    \end{subfigure}
+    \caption{High wall visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:wall_high_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002.jpg}
         \caption*{High Wall - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/floorplan/1c_09_71803d8a85fbd9867bb8087d58a6_0002_imgarray_heatmap.jpg}
+        \caption*{High Wall - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005.jpg}
         \caption*{High Wall - Living Room 2}
     \end{subfigure}
-    
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/top_k/livingroom/1c_09_71803d8a85fbd9867bb8087d58a6_0005_living_semseg.jpg}
+        \caption*{High Wall - Segmentation 2}
+    \end{subfigure}
+    \caption{High wall visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:wall_high_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002.jpg}
         \caption*{Low Wall - Floorplan 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/0b_a5_e5ed745128fae63c4e99a7642c90_0002_imgarray_heatmap.jpg}
+        \caption*{Low Wall - Heatmap 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005.jpg}
         \caption*{Low Wall - Living Room 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/0b_a5_e5ed745128fae63c4e99a7642c90_0005_living_semseg.jpg}
+        \caption*{Low Wall - Segmentation 1}
+    \end{subfigure}
+    \caption{Low wall visibility property 1 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:wall_low_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001.jpg}
         \caption*{Low Wall - Floorplan 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/floorplan/40_e1_224ee89fc5abd1a6d916acb5db6f_0001_imgarray_heatmap.jpg}
+        \caption*{Low Wall - Heatmap 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003.jpg}
         \caption*{Low Wall - Living Room 2}
     \end{subfigure}
-    \caption{Comparison of properties with high (top row) and low (bottom row) wall visibility ratios, demonstrating the relationship between architectural complexity and wall exposure with both floor plans and corresponding living room images.}
-    \label{fig:wall_comparison}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/wall/bottom_k/livingroom/40_e1_224ee89fc5abd1a6d916acb5db6f_0003_living_semseg.jpg}
+        \caption*{Low Wall - Segmentation 2}
+    \end{subfigure}
+    \caption{Low wall visibility property 2 - floor plan, heatmap, living room, and segmentation.}
+    \label{fig:wall_low_2}
 \end{figure}
 
 \subsection{Combined Indicator Analysis}
@@ -752,19 +1043,41 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High visibility Low Window - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/50_ce_c18887f633d07821c92f509fc6e5_0001_imgarray_heatmap.jpg}
+        \caption*{High visibility Low Window - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003.jpg}
         \caption*{High visibility Low Window - Interior 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/50_ce_c18887f633d07821c92f509fc6e5_0003_living_semseg.jpg}
+        \caption*{High visibility Low Window - Segmentation 1}
+    \end{subfigure}
+    \caption{High visibility low window property 1 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:high_vga_low_window_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002.jpg}
         \caption*{High visibility Low Window - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/floorplan/52_a8_5d745c13c0ce8ef62ced75cdacb2_0002_imgarray_heatmap.jpg}
+        \caption*{High visibility Low Window - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005.jpg}
         \caption*{High visibility Low Window - Interior 2}
     \end{subfigure}
-    \caption{Properties with high mean visibility values but low window ratios, demonstrating 2D openness achieved through layout design rather than glazing with both floor plans and corresponding interior images.}
-    \label{fig:high_vga_low_window}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_low_windowpane/interior/52_a8_5d745c13c0ce8ef62ced75cdacb2_0005_living_semseg.jpg}
+        \caption*{High visibility Low Window - Segmentation 2}
+    \end{subfigure}
+    \caption{High visibility low window property 2 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:high_vga_low_window_2}
 \end{figure}
 
 \subsubsection{High visibility values with High Window Ratio}
@@ -776,19 +1089,41 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{High visibility High Window - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0002_imgarray_heatmap.jpg}
+        \caption*{High visibility High Window - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008.jpg}
         \caption*{High visibility High Window - Interior 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/12_b6_10d6ee0bc39bfc0c964529e8a0f3_0008_living_semseg.jpg}
+        \caption*{High visibility High Window - Segmentation 1}
+    \end{subfigure}
+    \caption{High visibility high window property 1 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:high_vga_high_window_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003.jpg}
         \caption*{High visibility High Window - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/floorplan/38_0d_4e9b32327ff72f5bb8180cc2350d_0003_imgarray_heatmap.jpg}
+        \caption*{High visibility High Window - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007.jpg}
         \caption*{High visibility High Window - Interior 2}
     \end{subfigure}
-    \caption{Properties with both high mean visibility values and high window ratios, representing optimal combinations of 2D and 3D openness characteristics with both floor plans and corresponding interior images.}
-    \label{fig:high_vga_high_window}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/high_mean_value_raw_all_high_windowpane/interior/38_0d_4e9b32327ff72f5bb8180cc2350d_0007_living_semseg.jpg}
+        \caption*{High visibility High Window - Segmentation 2}
+    \end{subfigure}
+    \caption{High visibility high window property 2 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:high_vga_high_window_2}
 \end{figure}
 
 \subsubsection{Low visibility values with High Window Ratio}
@@ -800,19 +1135,41 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{Low visibility High Window - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/0f_60_4389dc3851937a3a3e78da1e1e5e_0002_imgarray_heatmap.jpg}
+        \caption*{Low visibility High Window - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003.jpg}
         \caption*{Low visibility High Window - Interior 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/0f_60_4389dc3851937a3a3e78da1e1e5e_0003_living_semseg.jpg}
+        \caption*{Low visibility High Window - Segmentation 1}
+    \end{subfigure}
+    \caption{Low visibility high window property 1 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:low_vga_high_window_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002.jpg}
         \caption*{Low visibility High Window - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/floorplan/2b_af_6cbd477454741678ed92a966fa38_0002_imgarray_heatmap.jpg}
+        \caption*{Low visibility High Window - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003.jpg}
         \caption*{Low visibility High Window - Interior 2}
     \end{subfigure}
-    \caption{Properties with low mean visibility values but high window ratios, showing how extensive glazing can provide openness despite compartmentalized layouts with both floor plans and corresponding interior images.}
-    \label{fig:low_vga_high_window}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_high_windowpane/interior/2b_af_6cbd477454741678ed92a966fa38_0003_living_semseg.jpg}
+        \caption*{Low visibility High Window - Segmentation 2}
+    \end{subfigure}
+    \caption{Low visibility high window property 2 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:low_vga_high_window_2}
 \end{figure}
 
 \subsubsection{Low visibility values with Low Window Ratio}
@@ -824,17 +1181,39 @@ human perception of spatial openness as an extra validation of the effectiveness
         \caption*{Low visibility Low Window - Floorplan 1}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_4f_f64209392200a7733dd015ec748f_0002_imgarray_heatmap.jpg}
+        \caption*{Low visibility Low Window - Heatmap 1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003.jpg}
         \caption*{Low visibility Low Window - Interior 1}
     \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_4f_f64209392200a7733dd015ec748f_0003_living_semseg.jpg}
+        \caption*{Low visibility Low Window - Segmentation 1}
+    \end{subfigure}
+    \caption{Low visibility low window property 1 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:low_vga_low_window_1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002.jpg}
         \caption*{Low visibility Low Window - Floorplan 2}
     \end{subfigure}
     \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/floorplan/50_9d_20303e80370289d37407f96cf27f_0002_imgarray_heatmap.jpg}
+        \caption*{Low visibility Low Window - Heatmap 2}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
         \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005.jpg}
         \caption*{Low visibility Low Window - Interior 2}
     \end{subfigure}
-    \caption{Properties with both low mean visibility values and low window ratios, representing the most enclosed characteristics with emphasis on privacy and separation with both floor plans and corresponding interior images.}
-    \label{fig:low_vga_low_window}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \includegraphics[width=\textwidth]{chapters/plots/ranked_properties/low_mean_value_raw_all_low_windowpane/interior/50_9d_20303e80370289d37407f96cf27f_0005_living_semseg.jpg}
+        \caption*{Low visibility Low Window - Segmentation 2}
+    \end{subfigure}
+    \caption{Low visibility low window property 2 - floor plan, heatmap, interior, and segmentation.}
+    \label{fig:low_vga_low_window_2}
 \end{figure}

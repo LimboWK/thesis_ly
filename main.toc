@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{Initial Data Selection}{10}{section*.8}%
 \contentsline {subsubsection}{Property Specification Requirements}{11}{section*.9}%
 \contentsline {subsubsection}{Quality Validation and Final Selection}{11}{section*.10}%
-\contentsline {section}{\numberline {2.3}Sptail Openness Indicators}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Spatial Openness Indicators}{12}{section.2.3}%
 \contentsline {section}{\numberline {2.4}2D Openness Indicators}{14}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Visibility Graph Analysis (VGA) Methodology}{14}{subsection.2.4.1}%
 \contentsline {subsubsection}{Mathematical Definition of VGA}{14}{section*.12}%
@@ -32,35 +32,35 @@
 \contentsline {subsubsection}{Standard deviation of visibility values of whole property}{25}{section*.25}%
 \contentsline {subsubsection}{Window Ratio}{26}{section*.27}%
 \contentsline {section}{\numberline {3.2}Geospatial Distribution of Openness Indicators}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Correlation Analysis Among Indicators and with Rent and Others}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Correlation Analysis Among Indicators and with Rent and Others}{30}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Impact of Openness Indicators on Rental Prices}{32}{section.3.4}%
-\contentsline {subsubsection}{Fitting with Unselected Features }{32}{section*.31}%
-\contentsline {subsubsection}{Correlation and VIF Checks to Reduce Multicollinearity}{34}{section*.34}%
+\contentsline {subsubsection}{Fitting with Unselected Features }{33}{section*.31}%
+\contentsline {subsubsection}{Correlation and VIF Checks to Reduce Multicollinearity}{33}{section*.34}%
 \contentsline {subsubsection}{Stepwise Feature Selection for Optimal Model}{36}{section*.37}%
 \contentsline {subsubsection}{Interpretation of Feature Importance}{37}{section*.38}%
-\contentsline {section}{\numberline {3.5}Visual Validation of Openness Indicators}{37}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Visual Validation of Openness Indicators}{39}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}2D Openness Indicators}{39}{subsection.3.5.1}%
 \contentsline {subsubsection}{Mean visibility values - Whole Property}{39}{section*.41}%
-\contentsline {subsubsection}{Standard Deviation of visibility values}{40}{section*.43}%
-\contentsline {subsection}{\numberline {3.5.2}3D Openness Indicators}{41}{subsection.3.5.2}%
-\contentsline {subsubsection}{Window Ratio}{41}{section*.45}%
-\contentsline {subsubsection}{Ceiling Visibility}{42}{section*.47}%
-\contentsline {subsubsection}{Floor Visibility}{43}{section*.49}%
-\contentsline {subsubsection}{Wall Visibility}{44}{section*.51}%
-\contentsline {subsection}{\numberline {3.5.3}Combined Indicator Analysis}{45}{subsection.3.5.3}%
-\contentsline {subsubsection}{High visibility values with Low Window Ratio}{45}{section*.53}%
-\contentsline {subsubsection}{High visibility values with High Window Ratio}{45}{section*.55}%
-\contentsline {subsubsection}{Low visibility values with High Window Ratio}{46}{section*.57}%
-\contentsline {subsubsection}{Low visibility values with Low Window Ratio}{46}{section*.59}%
-\contentsline {chapter}{\numberline {4}Conclusions}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Summary of Key Findings}{47}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Temporal Evolution of Spatial Design}{47}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Geographic Patterns of Openness}{48}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Independence of 2D and 3D Openness Measures}{48}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Market Valuation of Spatial Openness}{49}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Future Work}{49}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}VGA Methodology Refinement}{49}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}3D Indicator Robustness}{50}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Causal Analysis Framework}{50}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Scale and Generalizability}{51}{subsection.4.2.4}%
-\contentsline {chapter}{References}{53}{appendix*.61}%
+\contentsline {subsubsection}{Standard Deviation of visibility values}{41}{section*.46}%
+\contentsline {subsection}{\numberline {3.5.2}3D Openness Indicators}{42}{subsection.3.5.2}%
+\contentsline {subsubsection}{Window Ratio}{42}{section*.51}%
+\contentsline {subsubsection}{Ceiling Visibility}{44}{section*.56}%
+\contentsline {subsubsection}{Floor Visibility}{46}{section*.61}%
+\contentsline {subsubsection}{Wall Visibility}{47}{section*.66}%
+\contentsline {subsection}{\numberline {3.5.3}Combined Indicator Analysis}{49}{subsection.3.5.3}%
+\contentsline {subsubsection}{High visibility values with Low Window Ratio}{49}{section*.71}%
+\contentsline {subsubsection}{High visibility values with High Window Ratio}{50}{section*.74}%
+\contentsline {subsubsection}{Low visibility values with High Window Ratio}{51}{section*.77}%
+\contentsline {subsubsection}{Low visibility values with Low Window Ratio}{52}{section*.80}%
+\contentsline {chapter}{\numberline {4}Conclusions}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary of Key Findings}{53}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Temporal Evolution of Spatial Design}{53}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Geographic Patterns of Openness}{54}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Independence of 2D and 3D Openness Measures}{54}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Market Valuation of Spatial Openness}{55}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Future Work}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}VGA Methodology Refinement}{55}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}3D Indicator Robustness}{56}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Causal Analysis Framework}{56}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Scale and Generalizability}{57}{subsection.4.2.4}%
+\contentsline {chapter}{References}{59}{appendix*.83}%
